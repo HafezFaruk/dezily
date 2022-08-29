@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-       <h1>Dezily</h1>
+       <h1>Dezily </h1>
       </main>
 
       <footer className={styles.footer}>
