@@ -4,7 +4,7 @@ const { INCREMENT, DECREMENT } = actionTypes
 export const initialState = {
     doctors: [
         {
-            name: "Ashraf",
+            name: "Naimur",
             Hospital:"Estran"
         }
     ],
