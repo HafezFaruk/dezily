@@ -25,8 +25,8 @@ export default function ContactUs() {
 
           <div className="flex">
             <div className="flex">
-              <div className="bg-grey   hover:bg-green ">
-                <i  className="fi fi-rr-pulse hover:text-whitetext-4xl w-full p-5 "></i>
+              <div className="bg-grey flex hover:bg-green ">
+                <i className="fi fi-rr-pulse hover:text-white text-center text-4xl w-full p-5 "></i>
               </div>
               <div>
                 {" "}
