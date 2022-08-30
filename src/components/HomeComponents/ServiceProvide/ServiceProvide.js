@@ -7,6 +7,7 @@ export default function ServiceProvide() {
       title: "Cardiovascular Care Services",
       subtitle:
         "A Variety of programs to preventation heart and vascular disease and your overall health rate.",
+      exit: "<i class='fa-solid fa-pen-swirl'></i>",
     },
 
     {
@@ -14,6 +15,7 @@ export default function ServiceProvide() {
       title: "Heart Screening Technologies",
       subtitle:
         "The heart screening and detection is the essential to the manage and even preventing disease.",
+      exit: "<i class='fa-solid fa-pen-swirl'></i>",
     },
 
     {
@@ -21,12 +23,15 @@ export default function ServiceProvide() {
       title: "Pacemaker Implant Techniquies",
       subtitle:
         "Implantation electronic devices that is placed in under chest to the  help electronic problem.",
+      exit: "<i class='fa-solid fa-pen-swirl'></i>",
     },
     {
       image: "https://themetechmount.com/html/dezily/images/pain.svg",
       title: "Ambulatory Surgery Services",
       subtitle:
         "Ambulatory monitors are small, portable machines that are able to record the heart’s rhythm.",
+
+      exit: "<i class='fa-solid fa-pen-swirl'></i>",
     },
   ];
   return (
@@ -42,7 +47,7 @@ export default function ServiceProvide() {
         {/* Carsol */}
 
         {items.map((x) => {
-         console.log(x)
+          console.log(x.exit)
         })}
       </div>
     </div>
