@@ -7648,7 +7648,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-"prop-types@^15.8.1":
+"prop-types@^15.6.2", "prop-types@^15.8.1":
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
@@ -7735,6 +7735,13 @@
     "http-errors" "2.0.0"
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
+
+"react-animated-slider@^1.1.4":
+  "integrity" "sha512-tXPOcokV8OUzZ4yBesAa+O8fmkA3ioLLAmYzdaVZHX2aS+9DnUHJRlNNSXdNfvqCFRHqfdq+dviU4Dmk4xirfw=="
+  "resolved" "https://registry.npmjs.org/react-animated-slider/-/react-animated-slider-1.1.4.tgz"
+  "version" "1.1.4"
+  dependencies:
+    "react" "^16.4.1"
 
 "react-app-polyfill@^3.0.0":
   "integrity" "sha512-sZ41cxiU5llIB003yxxQBYrARBqe0repqPTTYBTmMqTz9szeBbE37BehCE891NZsmdZqqP+xWKdT3eo3vOzN8w=="
@@ -7909,6 +7916,15 @@
   "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
+
+"react@^16.4.1":
+  "integrity" "sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g=="
+  "resolved" "https://registry.npmjs.org/react/-/react-16.14.0.tgz"
+  "version" "16.14.0"
+  dependencies:
+    "loose-envify" "^1.1.0"
+    "object-assign" "^4.1.1"
+    "prop-types" "^15.6.2"
 
 "read-cache@^1.0.0":
   "integrity" "sha512-Owdv/Ft7IjOgm/i0xvNDZ1LrRANRfew4b2prF3OWMQLxLfu3bS8FVhCsrSCMK4lR56Y9ya+AThoTpDCTxCmpRA=="

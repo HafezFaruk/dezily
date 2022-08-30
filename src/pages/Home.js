@@ -3,7 +3,7 @@ import Banner from "../components/HomeComponents/Banner/Banner";
 
 function Home() {
   return (
-    <div>
+    <div className="bg">
       <Banner />
     </div>
   );

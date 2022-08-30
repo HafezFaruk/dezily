@@ -9,6 +9,7 @@
     "daisyui": "^2.24.0",
     "package-name": "^0.1.0",
     "react": "^18.2.0",
+    "react-animated-slider": "^1.1.4",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-redux": "^8.0.2",
