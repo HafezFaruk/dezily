@@ -4,7 +4,7 @@ export default function HomeService() {
   return (
     <div>
       <div className="grid grid-rows  grid-flow-col  gap-6">
-        <div className="">
+        <div className="bg-">
           <div>
             <img src="https://i.ibb.co/FKrF5jk/heart.png" alt="heart" />
           </div>
