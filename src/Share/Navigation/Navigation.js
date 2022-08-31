@@ -28,10 +28,10 @@ const Navigation = () => {
                 <ul className=" py-1 border-0 border-t-4 border-light-blue text-left">
                   <li>
                     <Link
-                      to="/"
+                      to="/pages/about"
                       className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
                     >
-                      Grid view
+                      About Us
                     </Link>
                   </li>
                   <li>

@@ -1,9 +1,12 @@
-import React from 'react'
+import { Outlet } from "react-router-dom";
 
 function Pages() {
   return (
-    <div>Pages</div>
-  )
+    <div>
+      <Outlet />
+    </div>
+  );
 }
 
-export default Pages
+export default Pages;
+
