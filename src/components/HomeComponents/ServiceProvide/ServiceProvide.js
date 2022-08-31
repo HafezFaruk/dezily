@@ -9,7 +9,6 @@ export default function ServiceProvide() {
         "A Variety of programs to preventation heart and vascular disease and your overall health rate.",
       exit: "<i class='fa-solid fa-pen-swirl'></i>",
     },
-
     {
       image: "https://themetechmount.com/html/dezily/images/cardiology.svg",
       title: "Heart Screening Technologies",
@@ -17,7 +16,6 @@ export default function ServiceProvide() {
         "The heart screening and detection is the essential to the manage and even preventing disease.",
       exit: "<i class='fa-solid fa-pen-swirl'></i>",
     },
-
     {
       image: "https://themetechmount.com/html/dezily/images/healthcare.svg",
       title: "Pacemaker Implant Techniquies",
@@ -45,10 +43,19 @@ export default function ServiceProvide() {
         </h1>
 
         {/* Carsol */}
-
-        {items.map((x) => {
-          console.log(x.exit)
-        })}
+        <div className="flex space-x-4 my-28" >
+          {items.map((x) => (
+            <div className=" w-80 bg-white py-12 px-2">
+              <div className="flex justify-center">
+                <img className="w-20 hover:w-24 delay-200 ease-in" src={x.image} alt=""/>
+              </div>
+              <div>
+                <h2 className="font-semibold text-xl text-dark hover:text-green">{x.title}</h2>
+                <p className="text-center text-light-gray py-4">{x.subtitle}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
