@@ -9,19 +9,22 @@ import Navigation from "./Share/Navigation/Navigation.js";
 
 function Router() {
   return (
-      <BrowserRouter>
+    <BrowserRouter>
       {/* <NavigationBar/> */}
-      <Navigation/>
+      <Navigation />
       <Routes>
         <Route path="/" element={<Home />}>
           <Route index element={<Home />} />
-            <Route path="page" element={<Pages />} >
-                      
-            </Route>
-          <Route path="*" element={<Error/>} />
+          <Route
+            path="pages/heart-surgery
+"
+            element={<Pages />}
+          />
+
+          <Route path="*" element={<Error />} />
         </Route>
       </Routes>
-      <Footer/>
+      <Footer />
     </BrowserRouter>
   );
 }

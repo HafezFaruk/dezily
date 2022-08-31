@@ -25,10 +25,10 @@ const Navigation = () => {
             >
               pages
               <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
-                <ul className=" py-1 border border-t-4 border-light-blue text-left">
+                <ul className=" py-1 border-0 border-t-4 border-light-blue text-left">
                   <li>
                     <Link
-                      to="/gridview"
+                      to="/"
                       className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
                     >
                       Grid view
@@ -36,7 +36,7 @@ const Navigation = () => {
                   </li>
                   <li>
                     <Link
-                      to="/listview"
+                      to="/"
                       className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition "
                     >
                       List view
