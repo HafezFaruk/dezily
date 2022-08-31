@@ -2,6 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+<<<<<<< HEAD
 
     // colors: {
     //   "skin": "#33d687",
@@ -14,6 +15,14 @@ module.exports = {
     // },
 
     extend: {},
+=======
+    extend: {
+      colors: {
+        "regal-blue": "#243c5a",
+        "light-blue": "#33D687",
+      },
+    },
+>>>>>>> 20454be78109be0aa4f734b89cd442d655ce8da0
   },
   plugins: [],
 };
