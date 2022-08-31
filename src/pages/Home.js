@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Banner from "../components/HomeComponents/Banner/Banner";
+import ContactUs from "../components/HomeComponents/ContactUs/ContactUs";
+import HomeService from "../components/HomeComponents/HomeService/HomeService";
+import ServiceProvide from "../components/HomeComponents/ServiceProvide/ServiceProvide";
 
 function Home() {
   return (
-    <div>Home</div>
-  )
+    <div className="bg">
+      <ContactUs />
+      <ServiceProvide />
+    </div>
+  );
 }
 
-export default Home
+export default Home;
