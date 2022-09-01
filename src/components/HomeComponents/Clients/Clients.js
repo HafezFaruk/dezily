@@ -27,7 +27,7 @@ export default function Clients() {
         <h2 className="text-start font-bold py-2 text-xl text-dark pt-2">Happy Customers & Clients</h2>
         <div className="md:flex  space-x-3 justify-around">
           {items.map((x) => (
-            <div    >
+            <div className="flex justify-center my-10">
               <img  src={x.image} alt="" />
             </div>
           ))}
