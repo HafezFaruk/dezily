@@ -1,4 +1,5 @@
 import React from "react";
+
 export default function OurBlog() {
   const items = [
     {
@@ -15,28 +16,38 @@ export default function OurBlog() {
     },
   ];
   return (
-    <div className="">
-      <div className="container mx-auto py-16"></div>
-      <p className="text-center text-md font-bold text-green">READ OUR BLOG</p>
-      <h2 className="text-4xl text-dark font-bold py-1 my-4">
-        We Provide Special Service <br /> For Patients
-      </h2>
-      <div className="flex space-x-3">
-        {items.map((x) => (
-          <div>
-            <div>
-              <img className="object-fill" src={x.image} />
-            </div>
-            <div className="">
-              <h2 className="px-8 text-2xl font-bold text-dark hover:text-green">{x.title}</h2>
+    <div className="bg-service-color">
+      <div className="container mx-auto py-16">
+        <p className="text-center text-md font-bold text-green">
+          READ OUR BLOG
+        </p>
+        <h2 className="text-4xl text-dark font-bold py-1 my-4">
+          We Provide Special Service <br /> For Patients
+        </h2>
+        <div className="flex space-x-3">
+          {items.map((x) => (
+            <div className="bg-white ">
               <div>
-                <p className="text-light-gray py-2 mt-1 px-8 text-start">KIMOX / HEART SURGERY</p>
+                <img className="object-fill" src={x.image} />
               </div>
-              <hr className=""/>
-              <p className="text-start px-8 ">Read More</p>
+              <div className="">
+                <h2 className="px-8 text-2xl font-bold text-dark hover:text-green">
+                  {x.title}
+                </h2>
+                <div>
+                  <p className="text-light-gray py-2 mt-1 px-8 text-start">
+                    <span>
+                      <i className="fa-regular fa-user text-green "></i>{" "}
+                    </span>{" "}
+                    KIMOX / <span></span> HEART SURGERY
+                  </p>
+                </div>
+                <hr className=" w-80 mx-auto my-4" />
+                <p className="text-start px-8 ">Read More</p>
+              </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
