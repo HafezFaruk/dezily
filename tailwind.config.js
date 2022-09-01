@@ -13,6 +13,9 @@ module.exports = {
       "light-gray": "#8d8d8d",
       "service-color": "#f5f5f5",
     },
+    backgroundImage: {
+      health: "url('https://i.ibb.co/Ms4FNnG/row-bgimage-2.jpg')",
+    },
     },
   },
 

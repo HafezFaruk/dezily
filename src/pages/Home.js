@@ -7,12 +7,11 @@ import OurBlog from "../components/HomeComponents/OurBlog/OurBlog";
 import ServiceProvide from "../components/HomeComponents/ServiceProvide/ServiceProvide";
 
 function Home() {
-  
   return (
     <div className="bg">
       <ContactUs />
       <ServiceProvide />
-      <Health/>
+      <Health />
       <OurBlog />
     </div>
   );
