@@ -16,7 +16,6 @@ function Router() {
     <BrowserRouter>
       <Navigation />
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
         <Route index element={<Home />} />
         <Route path="pages" element={<Pages />}>
           <Route path="about" element={<About />} />

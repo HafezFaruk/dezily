@@ -3,9 +3,11 @@ import { FiPhoneCall } from "react-icons/fi";
 import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
-    <nav className="bg-[#000000af]">
+    <nav className="bg-[#000000af] font-medium">
       <div className="flex justify-around items-center">
         <div>
+          <i class="flaticon flaticon-heart-8"></i>
+          <i class="flaticon flaticon-heart-beat"></i>
           <img
             src="https://themetechmount.com/html/dezily/images/logo-img.svg"
             alt=""
@@ -14,14 +16,14 @@ const Navigation = () => {
         <div className="flex items-center space-x-6">
           <Link
             to="/"
-            className="uppercase text-gray-200 flex py-8 hover:text-primary"
+            className="uppercase text-white flex py-8 hover:text-primary"
           >
             Home
           </Link>
           <div className="cursor-pointer relative  group">
             <Link
               to="/"
-              className="uppercase text-gray-200 hover:text-primary py-8"
+              className="uppercase text-white hover:text-primary py-8"
             >
               pages
               <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
@@ -65,7 +67,7 @@ const Navigation = () => {
           <div className="cursor-pointer relative  group">
             <Link
               to="/"
-              className="uppercase text-gray-200 hover:text-primary py-8"
+              className="uppercase text-white hover:text-primary py-8"
             >
               services
               <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
@@ -109,7 +111,7 @@ const Navigation = () => {
           <div className="cursor-pointer relative  group">
             <Link
               to="/"
-              className="uppercase text-gray-200 hover:text-primary py-8"
+              className="uppercase text-white hover:text-primary py-8"
             >
               portfolio
               <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
@@ -153,7 +155,7 @@ const Navigation = () => {
           <div className="cursor-pointer relative  group">
             <Link
               to="/"
-              className="uppercase text-gray-200 hover:text-primary py-8"
+              className="uppercase text-white hover:text-primary py-8"
             >
               blog
               <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
@@ -196,7 +198,7 @@ const Navigation = () => {
           </div>
           <Link
             to="/contact"
-            className="text-gray-200 uppercase hover:text-primary cursor-pointer py-8"
+            className="text-white uppercase hover:text-primary cursor-pointer py-8"
           >
             Contact US
           </Link>
