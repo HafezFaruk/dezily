@@ -1,6 +1,6 @@
 import React from "react";
 import { IoIosArrowForward } from "react-icons/io";
-import headerBanner from "../../assets/images/pagetitle-bg.jpg";
+import headerBanner from "../../../assets/images/pagetitle-bg.jpg";
 const HeaderFeature = ({ tab }) => {
   return (
     <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-[28rem] bg-cover bg-center">
