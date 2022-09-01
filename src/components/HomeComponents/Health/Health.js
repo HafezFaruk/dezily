@@ -1,9 +1,9 @@
 import React from "react";
 
 export default function Health() {
-    const image={
-        image:"https://i.ibb.co/7nQZ8MG/12.jpg"
-    }
+  const image = {
+    image: "https://i.ibb.co/7nQZ8MG/12.jpg",
+  };
   return (
     <div>
       <div className="bg-no-repeat bg-health bg-cover bg-black ">
@@ -25,8 +25,8 @@ export default function Health() {
         </div>
       </div>
       {/* two Card */}
-      <div className="">
-        <div className="bg-green">
+      <div className="md:flex">
+        {/* <div className="bg-green">
           <div className="container mx-auto py-7 text-white font-bold">
             <p className="text-start">PATIENTS TESTIMONIALS</p>
             <h2 className="text-start text-4xl font-bold">
@@ -39,10 +39,8 @@ export default function Health() {
             <p className="text-start py-1">with our team, or call</p>
             <div></div>
           </div>
-        </div>
-        <div className="bg-dark">
-          <div className="container mx-auto">2</div>
-        </div>
+        </div> */}
+      
       </div>
     </div>
   );

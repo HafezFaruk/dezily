@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../components/HomeComponents/Banner/Banner";
+import Clients from "../components/HomeComponents/Clients/Clients";
 import ContactUs from "../components/HomeComponents/ContactUs/ContactUs";
 import Health from "../components/HomeComponents/Health/Health";
 import HomeService from "../components/HomeComponents/HomeService/HomeService";
@@ -12,6 +13,7 @@ function Home() {
       <ContactUs />
       <ServiceProvide />
       <Health />
+      <Clients />
       <OurBlog />
     </div>
   );

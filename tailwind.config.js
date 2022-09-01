@@ -2,20 +2,20 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-   
     extend: {
-       colors: {
-      skin: "#33d687",
-      dark: "#2a334e",
-      grey: " #8D8D8D",
-      white: "#ffffff",
-      green: "#33d687",
-      "light-gray": "#8d8d8d",
-      "service-color": "#f5f5f5",
-    },
-    backgroundImage: {
-      health: "url('https://i.ibb.co/Ms4FNnG/row-bgimage-2.jpg')",
-    },
+      colors: {
+        skin: "#33d687",
+        dark: "#2a334e",
+        grey: " #8D8D8D",
+        white: "#ffffff",
+        quote:"##1F2740",
+        green: "#33d687",
+        "light-gray": "#8d8d8d",
+        "service-color": "#f5f5f5",
+      },
+      backgroundImage: {
+        health: "url('https://i.ibb.co/Ms4FNnG/row-bgimage-2.jpg')",
+      },
     },
   },
 
