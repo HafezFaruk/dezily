@@ -10,6 +10,7 @@ import ServiceProvide from "../components/HomeComponents/ServiceProvide/ServiceP
 function Home() {
   return (
     <div className="bg">
+      <HomeService/>
       <ContactUs />
       <ServiceProvide />
       <Health />
