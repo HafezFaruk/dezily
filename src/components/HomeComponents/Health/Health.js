@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function Health() {
+    const image={
+        image:"https://i.ibb.co/7nQZ8MG/12.jpg"
+    }
   return (
     <div>
       <div className="bg-no-repeat bg-health bg-cover bg-black ">
@@ -24,10 +27,21 @@ export default function Health() {
       {/* two Card */}
       <div className="">
         <div className="bg-green">
-            <div className="container mx-auto">2</div>
+          <div className="container mx-auto py-7 text-white font-bold">
+            <p className="text-start">PATIENTS TESTIMONIALS</p>
+            <h2 className="text-start text-4xl font-bold">
+              What Are They Saying
+            </h2>
+            <hr className="w-96  mt-8"></hr>
+            <p className="text-start">
+              If you have any questions or need help contact
+            </p>
+            <p className="text-start py-1">with our team, or call</p>
+            <div></div>
+          </div>
         </div>
         <div className="bg-dark">
-        <div className="container mx-auto">2</div>
+          <div className="container mx-auto">2</div>
         </div>
       </div>
     </div>
