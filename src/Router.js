@@ -18,7 +18,10 @@ function Router() {
       <Routes>
         <Route index element={<Home />} />
         <Route path="pages" element={<Pages />}>
-          <Route path="about" element={<About />} />
+          <Route path="about-us" element={<About />} />
+          <Route path="Services" element={<About />} />
+          <Route path="Team-Details" element={<About />} />
+          <Route path="FAQ" element={<About />} />
         </Route>
         <Route path="*" element={<Error />} />
       </Routes>
