@@ -45,9 +45,9 @@ export default function ServiceProvide() {
         {/* Carsol */}
         <div className="flex space-x-4 my-28" >
           {items.map((x) => (
-            <div className=" w-80 bg-white py-12 px-2">
+            <div className=" w-80 bg-white py-12 px-2 hover:border-l-2 border-green ease-in">
               <div className="flex justify-center">
-                <img className="w-20 hover:w-24 delay-200 ease-in" src={x.image} alt=""/>
+                <img className="w-20  delay-200 ease-in" src={x.image} alt=""/>
               </div>
               <div>
                 <h2 className="font-semibold text-xl text-dark hover:text-green">{x.title}</h2>
