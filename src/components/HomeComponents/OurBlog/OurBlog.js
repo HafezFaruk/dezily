@@ -27,8 +27,8 @@ export default function OurBlog() {
         <div className="flex space-x-3">
           {items.map((x) => (
             <div className="bg-white ">
-              <div>
-                <img className="object-fill" src={x.image} />
+              <div className="">
+                <img className="object-fill scale-90 hover:scale-100 ease-in duration-500" src={x.image} />
               </div>
               <div className="">
                 <h2 className="px-8 text-2xl font-bold text-dark hover:text-green">
@@ -43,7 +43,7 @@ export default function OurBlog() {
                   </p>
                 </div>
                 <hr className=" w-80 mx-auto my-4" />
-                <p className="text-start px-8 ">Read More</p>
+                <p className="text-start px-8 py-2">Read More</p>
               </div>
             </div>
           ))}
