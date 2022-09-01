@@ -7,6 +7,9 @@ module.exports = {
         "regal-blue": "#243c5a",
         "light-blue": "#33D687",
       },
+      backgroundImage: {
+        heart_Beat: "url('https://i.ibb.co/xm4yt5Q/bgImg.png')",
+      },
     },
   },
   plugins: [],
