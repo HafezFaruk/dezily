@@ -24,7 +24,7 @@ export default function OurBlog() {
         <h2 className="text-4xl text-dark font-bold py-1 my-4">
           We Provide Special Service <br /> For Patients
         </h2>
-        <div className="flex space-x-3">
+        <div className="md:flex space-x-3">
           {items.map((x) => (
             <div className="bg-white ">
               <div className="">
