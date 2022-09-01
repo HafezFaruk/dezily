@@ -202,7 +202,7 @@ const Navigation = () => {
           </Link>
         </div>
         <div className="flex items-center text-white">
-          <FiPhoneCall className="mr-2 text-light-blue w-10 h-10" />
+          <FiPhoneCall className="mr-2 text-my-color w-10 h-10" />
           <div className="text-left">
             <p>Call Us Now!</p>
             <p>+123 456 7890</p>
