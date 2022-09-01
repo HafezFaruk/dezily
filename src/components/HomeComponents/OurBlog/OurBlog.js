@@ -2,26 +2,6 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 export default function OurBlog() {
-  const responsive = {
-    superLargeDesktop: {
-      // the naming can be any, depends on you.
-      breakpoint: { max: 4000, min: 3000 },
-      items: 5,
-    },
-    desktop: {
-      breakpoint: { max: 3000, min: 1024 },
-      items: 3,
-    },
-    tablet: {
-      breakpoint: { max: 1024, min: 464 },
-      items: 2,
-    },
-    mobile: {
-      breakpoint: { max: 464, min: 0 },
-      items: 1,
-    },
-  };
-
   const items = [
     {
       image: "https://themetechmount.com/html/dezily/images/blog/blog-14.jpg",
@@ -35,24 +15,25 @@ export default function OurBlog() {
       image: "https://themetechmount.com/html/dezily/images/blog/blog-16.jpg",
       title: "Hard Content We Decide Ourselves A Intently Heart Transplant",
     },
-    {
-      image: "https://themetechmount.com/html/dezily/images/blog/blog-18.jpg",
-      title: "Hard Content We Decide Ourselves A Intently Heart Transplant",
-    },
   ];
   return (
-    <div>
-      <Carousel responsive={responsive}>
-        
-       {
-        items.map((x)=>(
+    <div className="container mx-auto py-16">
+      <p className="text-center text-md font-bold text-green">READ OUR BLOG</p>
+      <h2 className="text-4xl text-dark font-bold py-1 my-4" >
+        We Provide Special Service <br /> For Patients
+      </h2>
+      <div className="flex space-x-3">
+        {items.map((x) => (
           <div>
-            
+            <div>
+              <img src={x.image} />
+            </div>
+            <div>
+              <h2>{x.title}</h2>
+            </div>
           </div>
-        ))
-
-       }
-      </Carousel>
+        ))}
+      </div>
     </div>
   );
 }
