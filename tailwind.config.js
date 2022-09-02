@@ -18,6 +18,9 @@ module.exports = {
         "regal-blue": "#243c5a",
         "light-blue": "#33D687",
       },
+      backgroundImage: {
+        stepsBg: "url('https://i.ibb.co/BgGkpF2/row-bgimage-7.png')",
+      },
     },
 
   },

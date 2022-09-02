@@ -14,7 +14,9 @@ const Banner = () => {
         <div className='h-full items-center flex justify-center'>
           <div>
             <h1 className='font-bold capitalize text-[3.8rem] leading-[4rem] text-white'>Services Details</h1>
-            <p className='text-white font-semibold text-[1.1rem]'>Home<span className='px-4'>/</span>Services Details</p>
+            <div className='text-center'>
+              <p className='text-white font-normal text-[1.1rem]'>Home<span className='px-4'>/</span>Services Details</p>
+            </div>
           </div>
         </div>
 

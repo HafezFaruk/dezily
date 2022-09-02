@@ -1,10 +1,10 @@
 import React from 'react'
-import Services from './Services'
+// import Services from './Services'
 
 function Home() {
   return (
     <div>
-      <Services />
+      {/* <Services /> */}
     </div>
   )
 }
