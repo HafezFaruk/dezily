@@ -1,7 +1,7 @@
 import React from 'react'
 import Banner from '../components/ServicesComponents/banner/Banner'
-import HeartSurgery from '../components/ServicesComponents/HeartSurgery/HeartSurgery'
 import ServicesNavbar from '../components/ServicesComponents/servicesNavbar/ServicesNavbar'
+import { Outlet } from 'react-router-dom'
 
 
 const Services = () => {
@@ -9,7 +9,7 @@ const Services = () => {
     <div>
       <Banner />
       <ServicesNavbar />
-      <HeartSurgery />
+      <Outlet />
     </div>
   )
 }

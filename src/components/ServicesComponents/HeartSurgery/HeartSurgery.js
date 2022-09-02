@@ -219,7 +219,7 @@ const HeartSurgery = () => {
 
 
 
-            <div className='bg-[#252E47] h-[50vh] grid grid-cols-3 items-center justify-center pl-[170px]'>
+            {/* <div className='bg-[#252E47] h-[50vh] grid grid-cols-3 items-center justify-center pl-[170px]'>
 
                 <div className='items-center justify-center'>
                     <h1 className='text-[20px] font-semibold leading-[32px] text-white'>Subscribe With Us</h1>
@@ -247,7 +247,7 @@ const HeartSurgery = () => {
                     <button className='border-2 border-white py-2.5 px-6 font-medium text-white hover:bg-white hover:text-[#2A3350] hover:font-semibold'>View Our Locations</button>
                 </div>
 
-            </div>
+            </div> */}
 
 
 
