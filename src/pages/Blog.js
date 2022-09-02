@@ -1,12 +1,13 @@
-import React from 'react'
-import { Outlet } from 'react-router-dom'
+import React from "react";
+import { Outlet } from "react-router-dom";
 
 function Blog() {
   return (
-      <div>
-          <Outlet/>
+    <div>
+      
+      <Outlet />
     </div>
-  )
+  );
 }
 
-export default Blog
+export default Blog;

@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import TopBanner from "./../BlogComponents/TopBanner/TopBanner";
 
 function BlogClassic() {
   return (
-    <div>BlogClassic</div>
-  )
+    <div>
+      <TopBanner />
+    </div>
+  );
 }
 
-export default BlogClassic
+export default BlogClassic;
