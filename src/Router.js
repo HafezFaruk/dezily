@@ -1,11 +1,11 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/Pages/about/About";
+import Error from "./components/Pages/Error/Error";
 import FAQ from "./components/Pages/FAQ/FAQ";
 import Service from "./components/Pages/Services/Service";
 import Team from "./components/Pages/Team/Team";
 import TeamDetails from "./components/Pages/TeamDetails/TeamDetails";
-import Error from "./pages/Error.js";
 import Home from "./pages/Home.js";
 import Pages from "./pages/Pages.js";
 import Footer from "./Share/Footer/Footer.js";

@@ -6,7 +6,7 @@ const Error = () => {
   return (
     <div>
       <div className="h-[32rem]">
-        <HeaderFeature tab="FAQ'S" />
+        <HeaderFeature tab="Error Page" />
       </div>
       <ErrorPage />
     </div>
