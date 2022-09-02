@@ -1,16 +1,16 @@
 import React from "react";
 import HeaderFeature from "../about/HeaderFeature";
-import ServicePage from "./ServicePage";
+import ErrorPage from "./ErrorPage";
 
-const Service = () => {
+const Error = () => {
   return (
     <div>
       <div className="h-[32rem]">
-        <HeaderFeature tab="Services" />
+        <HeaderFeature tab="Error Page" />
       </div>
-      <ServicePage />
+      <ErrorPage />
     </div>
   );
 };
 
-export default Service;
+export default Error;

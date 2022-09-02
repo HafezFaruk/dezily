@@ -1,14 +1,10 @@
 .App {
-
-  font-family: 'Saira Semi Condensed', sans-serif;
+  font-family: "Saira Semi Condensed", sans-serif;
 }
 .img_color {
   filter: invert(94%) sepia(89%) saturate(881%) hue-rotate(70deg)
     brightness(93%) contrast(80%);
 }
-
-.img_color {
-  filter: invert(94%) sepia(89%) saturate(881%) hue-rotate(70deg)
-    brightness(93%) contrast(80%);
+.perspect:hover {
+  perspective: 800px;
 }
-
