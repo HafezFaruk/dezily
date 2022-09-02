@@ -1,4 +1,16 @@
 .App {
   font-family: 'Saira Semi Condensed', sans-serif;
+<<<<<<< HEAD
+=======
+}
+.img_color {
+  filter: invert(94%) sepia(89%) saturate(881%) hue-rotate(70deg)
+    brightness(93%) contrast(80%);
+}
+
+.img_color {
+  filter: invert(94%) sepia(89%) saturate(881%) hue-rotate(70deg)
+    brightness(93%) contrast(80%);
+>>>>>>> c108023af24be27dbcee9e1befd17801245fd590
 }
 
