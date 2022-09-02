@@ -1,7 +1,7 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
 
-function Services() {
+function Blog() {
   return (
       <div>
           <Outlet/>
@@ -9,4 +9,4 @@ function Services() {
   )
 }
 
-export default Services
+export default Blog

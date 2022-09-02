@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-import React from 'react'
-import Services from './Services'
-
-function Home() {
-  return (
-    <div>
-      <Services />
-=======
 import React from "react";
-import Banner from "../components/HomeComponents/Banner/Banner";
+import Banner from "../components/ServicesComponents/banner/Banner";
 import Clients from "../components/HomeComponents/Clients/Clients";
-import ContactUs from "../components/HomeComponents/ContactUs/ContactUs";
+import ContactUs from "../components/Pages/about/CounterFeature";
 import Health from "../components/HomeComponents/Health/Health";
 import OurBlog from "../components/HomeComponents/OurBlog/OurBlog";
 import ServiceProvide from "../components/HomeComponents/ServiceProvide/ServiceProvide";
@@ -20,7 +11,7 @@ import HomeService from "../components/HomeComponents/HomeService/HomeService.js
 function Home() {
   return (
     <div className="bg">
-      <Banner/>
+      <Banner />
       <HomeService />
       <ContactUs />
       <ServiceProvide />
@@ -28,7 +19,6 @@ function Home() {
       <Clients />
       <OurBlog />
       <Outlet />
->>>>>>> c108023af24be27dbcee9e1befd17801245fd590
     </div>
   )
 }

@@ -7,66 +7,6 @@ const { page, services, portfolio, blog } = navLinks[0];
 
 const Navigation = () => {
   return (
-<<<<<<< HEAD
-    <nav className="bg-[#000000af]">
-      <div className="flex justify-around items-center">
-        <div>
-          <img
-            src="https://themetechmount.com/html/dezily/images/logo-img.svg"
-            alt=""
-          />
-        </div>
-        <div className="flex items-center space-x-6">
-          <Link
-            to="/"
-            className="uppercase text-gray-200 flex py-8 hover:text-primary"
-          >
-            Home
-          </Link>
-          <div className="cursor-pointer relative  group">
-            <Link
-              to="/"
-              className="uppercase text-gray-200 hover:text-primary py-8"
-            >
-              pages
-              <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
-                <ul className=" py-1 border border-t-4 border-light-blue text-left">
-                  <li>
-                    <Link
-                      to="/gridview"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
-                    >
-                      Grid view
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/listview"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition "
-                    >
-                      List view
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/shoppingcart"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
-                    >
-                      Shopping cart
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/productDetails"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
-                    >
-                      Product Details
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-            </Link>
-=======
     <>
       <nav className="bg-[#000000af] font-medium">
         <div className="flex justify-around items-center">
@@ -75,7 +15,6 @@ const Navigation = () => {
               src="https://themetechmount.com/html/dezily/images/logo-img.svg"
               alt=""
             />
->>>>>>> c108023af24be27dbcee9e1befd17801245fd590
           </div>
           <div className="hidden lg:block">
             <div className="flex items-center space-x-6 ">
@@ -114,51 +53,6 @@ const Navigation = () => {
                   </div>
                 </Link>
               </div>
-<<<<<<< HEAD
-            </Link>
-          </div>
-          <div className="cursor-pointer relative  group">
-            <Link
-              to="/"
-              className="uppercase text-gray-200 hover:text-primary py-8"
-            >
-              blog
-              <div className="absolute transition duration-1000 ease-in-out z-10 w-72 mt-8 opacity-0 group-hover:opacity-100 invisible group-hover:visible text-base list-none bg-white rounded divide-y divide-gray-100 shadow">
-                <ul className=" py-1 border border-t-4 border-light-blue text-left">
-                  <li>
-                    <Link
-                      to="/gridview"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
-                    >
-                      Grid view
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/listview"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition "
-                    >
-                      List view
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/shoppingcart"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
-                    >
-                      Shopping cart
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/productDetails"
-                      className="block py-2 px-4 text-sm text-gray-700 hover:bg-gray-100 hover:text-primary transition"
-                    >
-                      Product Details
-                    </Link>
-                  </li>
-                </ul>
-=======
               <div className="cursor-pointer relative  group">
                 <Link to="/" className="uppercase text-white  py-8">
                   portfolio
@@ -174,7 +68,6 @@ const Navigation = () => {
                     </ul>
                   </div>
                 </Link>
->>>>>>> c108023af24be27dbcee9e1befd17801245fd590
               </div>
               <div className="cursor-pointer relative  group">
                 <Link to="/" className="uppercase text-white  py-8">

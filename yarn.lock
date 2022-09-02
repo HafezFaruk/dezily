@@ -1207,8 +1207,6 @@
     "minimatch" "^3.1.2"
     "strip-json-comments" "^3.1.1"
 
-<<<<<<< HEAD
-=======
 "@flaticon/flaticon-uicons@^1.7.0":
   "integrity" "sha512-bpcvplYZs8Wt5yIPeeOF41vwUaZeDQvJAlKJN9UQidS8xqTF2Cjkh7IZ4WcKNnSWeczslP0NgXwegS9VeR21tw=="
   "resolved" "https://registry.npmjs.org/@flaticon/flaticon-uicons/-/flaticon-uicons-1.7.0.tgz"
@@ -1242,7 +1240,6 @@
   dependencies:
     "prop-types" "^15.8.1"
 
->>>>>>> c108023af24be27dbcee9e1befd17801245fd590
 "@humanwhocodes/config-array@^0.10.4":
   "integrity" "sha512-mXAIHxZT3Vcpg83opl1wGlVZ9xydbfZO3r5YfRSH6Gpp2J/PfdBP0wbDa2sO6/qRbcalpoevVyW6A/fI6LfeMw=="
   "resolved" "https://registry.npmjs.org/@humanwhocodes/config-array/-/config-array-0.10.4.tgz"
@@ -7724,11 +7721,7 @@
     "kleur" "^3.0.3"
     "sisteransi" "^1.0.5"
 
-<<<<<<< HEAD
-"prop-types@^15.8.1":
-=======
 "prop-types@^15.6.0", "prop-types@^15.6.2", "prop-types@^15.7.2", "prop-types@^15.8.1":
->>>>>>> c108023af24be27dbcee9e1befd17801245fd590
   "integrity" "sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg=="
   "resolved" "https://registry.npmjs.org/prop-types/-/prop-types-15.8.1.tgz"
   "version" "15.8.1"
