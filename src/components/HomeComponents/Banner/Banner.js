@@ -7,6 +7,9 @@ export default function Banner() {
       title: "First item",
       description: "What patients and caregivers need to know about ",
     },
+    {
+      image:"https://themetechmount.com/html/dezily/images/slides/slider-mainbg-02.jpg"
+    },
     { title: "Second item", description: "Lorem ipsum" },
   ];
   return (
@@ -14,6 +17,7 @@ export default function Banner() {
       <Slider>
         {slides.map((slide, index) => (
           <div key={index}>
+            <img src={slide.image}/>
             <h2>{slide.title}</h2>
             <div>{slide.description}</div>
           </div>
