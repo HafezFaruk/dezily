@@ -1,7 +1,18 @@
 import { Footer } from "flowbite-react";
 import React from "react";
-
+import  { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Patient() {
+  useEffect(() => {
+    AOS.init(
+      {
+        duration: 1500,
+      }
+    );
+    AOS.refresh();
+  
+  }, []);
   const items = [
     {
       image: "https://i.ibb.co/hLQ55m5/blog-06.jpg",
@@ -91,7 +102,7 @@ export default function Patient() {
             <div>
               {items.map((x) => (
                 <div className="bg-white  ">
-                  <div className="md:flex space-x-2 md:my-6  p-5 my-3 ">
+                  <div data-aos="fade-right" className="md:flex space-x-2 md:my-6  p-5 my-3 ">
                     <div>
                       <img className="md:h-64" src={x.image} alt="" />
                     </div>
@@ -128,7 +139,7 @@ export default function Patient() {
             <div className="bg-white p-5 border-b-2 border-green">
               <h2 className="text-dark font-semibold">Categories</h2>
               {categories.map((x) => (
-                <div>
+                <div data-aos="fade-up">
                   <p className="text-gray-400 hover:text-green py-2 mt-1">
                     + <span className="ml-2">{x.text}</span>{" "}
                   </p>
@@ -141,7 +152,7 @@ export default function Patient() {
               <h2 className="text-dark font-bold text-lg">Recent Postss</h2>
               <div>
                 {posts.map((x) => (
-                  <div className="flex space-x-2 my-2 p-2">
+                  <div data-aos="fade-up" className="flex space-x-2 my-2 p-2">
                     <div>
                       <img src={x.image} alt="" />
                     </div>
@@ -195,7 +206,9 @@ export default function Patient() {
 
             {/* Opening Hours */}
             <div className=" p-5  my-5 ">
-              <h2 className="text-dark font-semibold text-xl py-2">Opening hours</h2>
+              <h2 className="text-dark font-semibold text-xl py-2">
+                Opening hours
+              </h2>
               <div>
                 <img
                   src="https://i.ibb.co/d6Kvv2N/Screenshot-2022-09-03-120327.png"
