@@ -53,17 +53,19 @@ export default function Patient() {
             {/* cards */}
             <div>
               {items.map((x) => (
-                <div className="flex space-x-2">
-                  <div>
-                    <img src={x.image} alt="" />
-                  </div>
-                  <div>
-                    <h2>{x.title}</h2>
-                    <h3>{x.subtitle}</h3>
-                    <hr/>
+                <div className="bg-white  ">
+                  <div className="flex space-x-2 md:my-6  p-5 ">
+                    <div>
+                      <img className="h-64" src={x.image} alt="" />
+                    </div>
+                    <div>
+                      <h2>{x.title}</h2>
+                      <h3>{x.subtitle}</h3>
+                      <hr />
 
-                    <p>{x.content}</p>
-                    <p>{x.text}</p>
+                      <p>{x.content}</p>
+                      <p>{x.text}</p>
+                    </div>
                   </div>
                 </div>
               ))}
