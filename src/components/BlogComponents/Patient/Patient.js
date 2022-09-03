@@ -95,7 +95,7 @@ export default function Patient() {
                     <div>
                       <img className="md:h-64" src={x.image} alt="" />
                     </div>
-                    <div className="md:p-5 w-[25rem]">
+                    <div className="md:p-5 w-[30rem]">
                       <h2 className="text-2xl font-semibold text-dark hover:text-green">
                         {x.title}
                       </h2>
@@ -158,7 +158,7 @@ export default function Patient() {
             </div>
 
             {/* Tages  */}
-            <div className="p-5 bg-white">
+            <div className="p-5 bg-white border-b-2 border-green">
               <h2 className="text-dark font-semibold text-xl">Tages</h2>
 
               {/* Tages-container */}
