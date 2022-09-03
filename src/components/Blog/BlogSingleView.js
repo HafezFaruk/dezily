@@ -1,8 +1,11 @@
 import React from 'react'
+import SingleBanner from '../BlogComponents/SingleBanner/SingleBanner'
 
 function BlogSingleView() {
   return (
-    <div>BlogSingleView</div>
+    <div>
+      <SingleBanner/>
+    </div>
   )
 }
 
