@@ -63,6 +63,24 @@ export default function Patient() {
       text: "Heart Transplant",
     },
   ];
+
+  const posts = [
+    {
+      image: "https://i.ibb.co/7YS4cjx/sidebar-post-01.jpg",
+      date: "April 17, 2021",
+      content: "Can depression increase your risk for heart disease?",
+    },
+    {
+      image: "https://i.ibb.co/34LKBxc/sidebar-post-02.jpg",
+      date: "April 15, 2021",
+      content: "Heart Transplant development solutions for great surgery...",
+    },
+    {
+        image:"https://i.ibb.co/bFPs5Zv/sidebar-post-03.jpg",
+        date:"April 12, 2021",
+        content:"5 Ways to Overcome Your Stumbling Blocks to a Healthy Heart."
+    }
+  ];
   return (
     <div className="bg-service-color	">
       <div className="container mx-auto">
@@ -107,7 +125,7 @@ export default function Patient() {
             </div>
             {/* Categories */}
 
-            <div className="bg-white p-5">
+            <div className="bg-white p-5 border-b-2 border-green">
               <h2 className="text-dark font-semibold">Categories</h2>
               {categories.map((x) => (
                 <div>
