@@ -1,6 +1,8 @@
 import React from "react";
 import HeaderFeature from "../about/HeaderFeature";
-import TeamDoctorsDetails from "./TeamDoctorsDetails";
+import AboutDoctor from "./AboutDoctor";
+import Expertise from "./Expertise";
+import Qualifications from "./Qualifications";
 
 const TeamDetails = () => {
   return (
@@ -8,7 +10,9 @@ const TeamDetails = () => {
       <div className="h-[32rem]">
         <HeaderFeature tab="Team Details" />
       </div>
-      <TeamDoctorsDetails />
+      <Expertise />
+      <AboutDoctor />
+      <Qualifications />
     </div>
   );
 };
