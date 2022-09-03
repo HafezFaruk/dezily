@@ -137,7 +137,7 @@ export default function Patient() {
             </div>
 
             {/* Recent Posts */}
-            <div className="p-5 bg-white my-5">
+            <div className="p-5 bg-white my-5 border-b-2 border-green">
               <h2 className="text-dark font-bold text-lg">Recent Postss</h2>
               <div>
                 {posts.map((x) => (
@@ -147,11 +147,49 @@ export default function Patient() {
                     </div>
                     <div>
                       <p className="text-green">{x.date}</p>
-                      <h2 className="text-dark text-xl font-semibold hover:text-green">{x.content}</h2>
+                      <h2 className="text-dark text-xl font-semibold hover:text-green">
+                        {x.content}
+                      </h2>
                     </div>
-                    <hr/>
+                    <hr />
                   </div>
                 ))}
+              </div>
+            </div>
+
+            {/* Tages  */}
+            <div className="p-5 bg-white">
+              <h2 className="text-dark font-semibold text-xl">Tages</h2>
+
+              {/* Tages-container */}
+              <div className="py-2">
+                <div className="flex space-x-6 my-4">
+                  <div className="px-5 py-2 text-gray-400 bg-service-color hover:bg-green hover:text-white">
+                    Cardic
+                  </div>
+                  <div className="px-5 py-2 text-gray-400 bg-service-color hover:bg-green hover:text-white">
+                    Discounts
+                  </div>
+                </div>
+                <div className="flex space-x-6 my-4">
+                  <div className="px-5 py-2 text-gray-400 bg-service-color hover:bg-green hover:text-white">
+                    Health
+                  </div>
+                  <div className="px-5 py-2 text-gray-400 bg-service-color hover:bg-green hover:text-white">
+                    News
+                  </div>
+                  <div className="px-5 py-2 text-gray-400 bg-service-color  hover:bg-green hover:text-white">
+                    Heart
+                  </div>
+                </div>
+                <div className="flex space-x-6 my-4">
+                  <div className="px-5 py-2 text-gray-400 bg-service-color  hover:bg-green hover:text-white">
+                    Cardic
+                  </div>
+                  <div className="px-5 py-2 text-gray-400 bg-service-color  hover:bg-green hover:text-white">
+                    Discounts
+                  </div>
+                </div>
               </div>
             </div>
           </div>
