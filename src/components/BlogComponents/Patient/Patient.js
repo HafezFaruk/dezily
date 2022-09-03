@@ -36,12 +36,13 @@ export default function Patient() {
       text: "View More",
     },
     {
-        image:'https://i.ibb.co/8d45GwJ/blog-09.jpg',
-        title:"How to take care of Heart Health?",
-        subtitle:'Special surgeon / By Admin',
-        content:'The heart care hospital have the best machine with the specialist doctors',
-        text:'View More'
-    }
+      image: "https://i.ibb.co/8d45GwJ/blog-09.jpg",
+      title: "How to take care of Heart Health?",
+      subtitle: "Special surgeon / By Admin",
+      content:
+        "The heart care hospital have the best machine with the specialist doctors",
+      text: "View More",
+    },
   ];
   return (
     <div className="bg-service-color">
@@ -51,11 +52,21 @@ export default function Patient() {
           <div>
             {/* cards */}
             <div>
-              <div>
-                <img src="https://i.ibb.co/hLQ55m5/blog-06.jpg" alt="" />
-              </div>
-              {/* content */}
-              <div></div>
+              {items.map((x) => (
+                <div className="flex space-x-2">
+                  <div>
+                    <img src={x.image} alt="" />
+                  </div>
+                  <div>
+                    <h2>{x.title}</h2>
+                    <h3>{x.subtitle}</h3>
+                    <hr/>
+
+                    <p>{x.content}</p>
+                    <p>{x.text}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
           <div>imputs</div>
