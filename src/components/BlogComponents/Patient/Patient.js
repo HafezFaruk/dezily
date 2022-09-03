@@ -192,6 +192,11 @@ export default function Patient() {
                 </div>
               </div>
             </div>
+
+            {/* Opening Hours */}
+            <div className="bg-white p-5">
+                <h2>Opening hours</h2>
+            </div>
           </div>
         </div>
       </div>
