@@ -19,7 +19,7 @@ module.exports = {
         "service-color": "#f5f5f5",
       },
       backgroundImage: {
-        blogBanner:"url('https://themetechmount.com/html/dezily/images/pagetitle-bg.jpg')",
+        blogBanner:"url('https://i.ibb.co/JtRhR56/pagetitle-bg.jpg')",
         heart_Beat: "url('https://i.ibb.co/xm4yt5Q/bgImg.png')",
         health: "url('https://i.ibb.co/Ms4FNnG/row-bgimage-2.jpg')",
       },
