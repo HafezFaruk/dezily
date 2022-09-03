@@ -7,11 +7,15 @@ export const navLinks = [
       },
       {
         name: "Services",
-        link: "/pages/Services",
+        link: "/pages/services",
+      },
+      {
+        name: "Our Team",
+        link: "/pages/our-team",
       },
       {
         name: "Team Details",
-        link: "/pages/Team-Details",
+        link: "/pages/team-details",
       },
       {
         name: "FAQ",

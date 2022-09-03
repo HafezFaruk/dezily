@@ -5,7 +5,7 @@ const { page, services, portfolio, blog } = navLinks[0];
 function Mobile() {
   return (
     <div>
-      <div className="space-y-4 py-8 px-20 text-white bg-green-900">
+      <div className="space-y-4 py-8 px-20  bg-green-900">
         <Link to="/" className="uppercase">
           Home
         </Link>
