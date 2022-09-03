@@ -194,8 +194,14 @@ export default function Patient() {
             </div>
 
             {/* Opening Hours */}
-            <div className="bg-white p-5">
-                <h2>Opening hours</h2>
+            <div className=" p-5  my-5 ">
+              <h2 className="text-dark font-semibold">Opening hours</h2>
+              <div>
+                <img
+                  src="https://i.ibb.co/d6Kvv2N/Screenshot-2022-09-03-120327.png"
+                  alt=""
+                />
+              </div>
             </div>
           </div>
         </div>
