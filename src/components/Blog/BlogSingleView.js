@@ -1,12 +1,12 @@
-import React from 'react'
-import SingleBanner from '../BlogComponents/SingleBanner/SingleBanner'
+import React from "react";
+import SingleBanner from "../BlogComponents/SingleBanner/SingleBanner";
 
 function BlogSingleView() {
   return (
     <div>
-      <SingleBanner/>
+      <SingleBanner />
     </div>
-  )
+  );
 }
 
-export default BlogSingleView
+export default BlogSingleView;
