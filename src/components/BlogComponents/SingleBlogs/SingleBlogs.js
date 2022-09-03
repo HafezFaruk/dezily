@@ -1,6 +1,8 @@
 import React from "react";
+import { useState } from "react";
 
 export default function SingleBlogs() {
+  const [set, se] = useState([]);
   return (
     <div className="bg-white">
       <div className="container mx-auto">
@@ -37,8 +39,9 @@ export default function SingleBlogs() {
               </h2>
             </div>
             {/* Quote */}
+            {/* Quote */}
             <div className="bg-white absolute top-[53.2rem] right-[0]  rounded">
-              <img src="https://i.ibb.co/dP2h9PH/quote.png" alt="quote"/>
+              <img src="https://i.ibb.co/dP2h9PH/quote.png" alt="quote" />
             </div>
           </div>
         </div>
