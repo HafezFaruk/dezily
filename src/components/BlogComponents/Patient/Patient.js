@@ -111,7 +111,9 @@ export default function Patient() {
               <h2 className="text-dark font-semibold">Categories</h2>
               {categories.map((x) => (
                 <div>
-                    <p >+ <span>{x.text}</span> </p>
+                  <p className="text-gray-400 hover:text-green py-2 mt-1">
+                    + <span className="ml-2">{x.text}</span>{" "}
+                  </p>
                 </div>
               ))}
             </div>
