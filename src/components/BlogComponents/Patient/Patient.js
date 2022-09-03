@@ -58,8 +58,8 @@ export default function Patient() {
                     <div>
                       <img className="h-64" src={x.image} alt="" />
                     </div>
-                    <div>
-                      <h2>{x.title}</h2>
+                    <div className="p-5 w-[30rem]">
+                      <h2 className="text-2xl font-semibold text-dark hover:text-green">{x.title}</h2>
                       <h3>{x.subtitle}</h3>
                       <hr />
 
