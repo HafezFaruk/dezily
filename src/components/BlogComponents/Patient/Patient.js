@@ -1,3 +1,4 @@
+import { Footer } from "flowbite-react";
 import React from "react";
 
 export default function Patient() {
@@ -66,7 +67,7 @@ export default function Patient() {
                       <hr className="py-1" />
 
                       <p className="py-2 text-gray-400">{x.content}</p>
-                      <p>{x.text}</p>
+                      <p className="mt-5">{x.text}</p>
                     </div>
                   </div>
                 </div>
@@ -76,6 +77,7 @@ export default function Patient() {
           <div>imputs</div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
