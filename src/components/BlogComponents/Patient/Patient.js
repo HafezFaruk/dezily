@@ -76,10 +76,10 @@ export default function Patient() {
       content: "Heart Transplant development solutions for great surgery...",
     },
     {
-        image:"https://i.ibb.co/bFPs5Zv/sidebar-post-03.jpg",
-        date:"April 12, 2021",
-        content:"5 Ways to Overcome Your Stumbling Blocks to a Healthy Heart."
-    }
+      image: "https://i.ibb.co/bFPs5Zv/sidebar-post-03.jpg",
+      date: "April 12, 2021",
+      content: "5 Ways to Overcome Your Stumbling Blocks to a Healthy Heart.",
+    },
   ];
   return (
     <div className="bg-service-color	">
@@ -95,7 +95,7 @@ export default function Patient() {
                     <div>
                       <img className="md:h-64" src={x.image} alt="" />
                     </div>
-                    <div className="md:p-5 w-[30rem]">
+                    <div className="md:p-5 w-[25rem]">
                       <h2 className="text-2xl font-semibold text-dark hover:text-green">
                         {x.title}
                       </h2>
@@ -113,7 +113,7 @@ export default function Patient() {
           {/* Side -Section */}
           <div>
             {/* Search */}
-            <div className=" bg-white mt-6 p-8 w-[25rem]  border-b-2 border-[#33D687] my-5">
+            <div className=" bg-white mt-6 p-8  md:w-[25rem] sm:w-full border-b-2 border-[#33D687] my-5">
               <h2 className="py-2 text-start text-dark text-lg font-semibold">
                 Search
               </h2>
@@ -134,6 +134,11 @@ export default function Patient() {
                   </p>
                 </div>
               ))}
+            </div>
+
+            {/* Recent Posts */}
+            <div className="p-5 bg-white my-5">
+                <h2 className="text-dark font-bold text-lg">Recent Posts</h2>
             </div>
           </div>
         </div>
