@@ -77,18 +77,22 @@ export default function Patient() {
           {/* Side -Section */}
           <div>
             {/* Search */}
-            <div className=" bg-white mt-6 p-8 w-[25rem]  border-b-2 border-[#33D687]">
+            <div className=" bg-white mt-6 p-8 w-[25rem]  border-b-2 border-[#33D687] my-5">
               <h2 className="py-2 text-start text-dark text-lg font-semibold">
                 Search
               </h2>
               <input
-                className="bg-service-color border-none w-full py-2 h-full" 
+                className="bg-service-color border-none w-full py-2 h-full"
                 placeholder="Search.."
                 type="text"
               />
             </div>
+            {/* Categories */}
+
+            <div className="bg-white">
+              <h2 className="text-dark">Categories</h2>
+            </div>
           </div>
-          {/* Categories */}
         </div>
       </div>
       <Footer />
