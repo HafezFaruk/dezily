@@ -138,7 +138,21 @@ export default function Patient() {
 
             {/* Recent Posts */}
             <div className="p-5 bg-white my-5">
-                <h2 className="text-dark font-bold text-lg">Recent Posts</h2>
+              <h2 className="text-dark font-bold text-lg">Recent Postss</h2>
+              <div>
+                {posts.map((x) => (
+                  <div className="flex space-x-2 my-2 p-2">
+                    <div>
+                      <img src={x.image} alt="" />
+                    </div>
+                    <div>
+                      <p className="text-green">{x.date}</p>
+                      <h2 className="text-dark text-xl font-semibold hover:text-green">{x.content}</h2>
+                    </div>
+                    <hr/>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
