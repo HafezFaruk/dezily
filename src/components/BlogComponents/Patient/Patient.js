@@ -45,6 +45,24 @@ export default function Patient() {
       text: "View More!",
     },
   ];
+
+  const categories = [
+    {
+      text: "Cardio Consultancy",
+    },
+    {
+      text: " Cardiology Exercise",
+    },
+    {
+      text: "Experience Doctors",
+    },
+    {
+      text: " Health Care",
+    },
+    {
+      text: "Heart Transplant",
+    },
+  ];
   return (
     <div className="bg-service-color	">
       <div className="container mx-auto">
@@ -89,8 +107,13 @@ export default function Patient() {
             </div>
             {/* Categories */}
 
-            <div className="bg-white">
-              <h2 className="text-dark">Categories</h2>
+            <div className="bg-white p-5">
+              <h2 className="text-dark font-semibold">Categories</h2>
+              {categories.map((x) => (
+                <div>
+                    <p >+ <span>{x.text}</span> </p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
