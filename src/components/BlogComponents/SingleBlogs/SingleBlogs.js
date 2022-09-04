@@ -6,7 +6,7 @@ export default function SingleBlogs() {
     {
       image: "https://i.ibb.co/pj5sTZX/blog-04.png",
       text: "Prev Post",
-      content: "Heart Transplant development solutions for great surgery.",
+      content: "Heart Transplant development solutions",
     },
     {
       image: "https://i.ibb.co/xJ5VrYV/blog-05.png",
@@ -122,15 +122,15 @@ export default function SingleBlogs() {
               </div>
             </div>
             {/* Blog Posts */}
-            <div className="flex justify-between">
+            <div className="flex justify-between my-5 ">
               {posts.map((x) => (
-                <div className="flex">
+                <div className="flex space-x-3">
                   <div>
                     <img src={x.image} alt="" />
                   </div>
                   <div>
-                    <p>{x.text}</p>
-                    <h2>{x.content}</h2>
+                    <p className="text-dark ">{x.text}</p>
+                    <h2 className="text-dark text-xl font-bold">{x.content}</h2>
                   </div>
                 </div>
               ))}
