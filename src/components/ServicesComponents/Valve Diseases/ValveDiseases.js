@@ -166,23 +166,54 @@ const ValveDiseases = () => {
 
 
                     <div className='grid grid-cols-4 gap-7'>
-                        <div className='bg-wwh1 bg-blend-overlay h-[50vh] bg-cover bg-center'>
-
+                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-full bg-cover bg-center">
+                            <img
+                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
+                                src="https://i.ibb.co/p4qv8cW/service-07.png"
+                                alt=""
+                            />
                         </div>
 
 
-                        <div className='bg-wwh2 h-[50vh] bg-cover bg-center'>
 
+
+
+
+
+                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-full bg-cover bg-center">
+                            <img
+                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
+                                src="https://i.ibb.co/LnYtp7D/service-05.png"
+                                alt=""
+                            />
                         </div>
 
 
-                        <div className='bg-wwh3 h-[50vh] bg-cover bg-center'>
 
+
+
+
+
+                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-full bg-cover bg-center">
+                            <img
+                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
+                                src="https://i.ibb.co/G9mgBzY/service-06.png"
+                                alt=""
+                            />
                         </div>
 
 
-                        <div className='bg-wwh4 h-[50vh] bg-cover bg-center'>
 
+
+
+
+
+                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-[50vh] bg-cover bg-center">
+                            <img
+                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
+                                src="https://i.ibb.co/vC5MY9X/service-08.png"
+                                alt=""
+                            />
                         </div>
                     </div>
 
