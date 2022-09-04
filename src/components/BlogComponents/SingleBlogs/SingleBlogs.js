@@ -40,9 +40,7 @@ export default function SingleBlogs() {
             </div>
             {/* Quote */}
             {/* Quote */}
-            <div className="bg-white absolute top-[53.2rem] right-[0]  rounded">
-              <img src="https://i.ibb.co/dP2h9PH/quote.png" alt="quote" />
-            </div>
+           
           </div>
         </div>
       </div>
