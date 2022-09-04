@@ -4,24 +4,17 @@ import { Link } from "react-router-dom";
 import Mobile from "./Mobile.js";
 import { navLinks } from "./NavLink.js";
 import { AiOutlineMenu } from "react-icons/ai";
-import { ImCross } from "react-icons/im";
+import { HiX } from "react-icons/hi";
 import { useState } from "react";
 const { page, services, portfolio, blog } = navLinks[0];
 
 const Navigation = () => {
   const [menu, setMenu] = useState(false);
-  // const [classStyle, setClassStyle] = useState(false);
-
+ 
   return (
     <>
       <nav className="bg-[#000000af] font-medium">
-        <div
-          className={
-            menu
-              ? "flex items-center justify-between "
-              : "flex items-center justify-around "
-          }
-        >
+        <div className="flex items-center justify-between px-10 lg:justify-around ">
           <div>
             <img
               src="https://themetechmount.com/html/dezily/images/logo-img.svg"
@@ -114,10 +107,10 @@ const Navigation = () => {
               </div>
             </div>
           </div>
-          <div className="lg:hidden">
+          <div className="lg:hidden text-white text-4xl">
             {menu ? (
               <span onClick={() => setMenu(false)}>
-                <ImCross />
+                <HiX />
               </span>
             ) : (
               <span onClick={() => setMenu(true)}>
