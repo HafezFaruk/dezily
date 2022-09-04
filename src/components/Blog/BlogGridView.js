@@ -1,6 +1,9 @@
 import React from "react";
+import GridBanner from "../BlogComponents/GridBanner/GridBanner";
 
 function BlogGridView() {
-  return <div>BlogGridView nddews</div>;
+  return <div>
+    <GridBanner/>
+  </div>;
 }
 export default BlogGridView;
