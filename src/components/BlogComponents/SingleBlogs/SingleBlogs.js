@@ -29,8 +29,8 @@ export default function SingleBlogs() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="w-[60rem] bg-service-color">
-            <div className="p-8 relative">
+          <div className="w-[60rem] bg-service-color my-20">
+            <div className="p-8 ">
               <h2 className="text-2xl font-semibold text-dark">
                 Cardio technology strategy and the roaplement that? The leaders
                 arrefreshing it constantly and business decisions.
@@ -40,7 +40,24 @@ export default function SingleBlogs() {
             </div>
             {/* Quote */}
             {/* Quote */}
-           
+          </div>
+        </div>
+        {/* text */}
+        <div className="flex justify-center my-5 ">
+          <div className="w-[60rem]">
+            {" "}
+            <p className="text-center p-2 text-lg text-gray-400 my-5 leading-9">
+              Cardiology is a branch of medicine that deals with the disorders
+              of the heart as well as some parts of the cardiovascular system.
+              The field includes medical .
+            </p>
+          </div>
+        </div>
+        {/* Image */}
+        <div className="flex justify-center my-5 ">
+          <div className="w-[60rem]">
+            {" "}
+            <img className="w-full h-full" src="https://i.ibb.co/TR9ZK64/blog-01.jpg" alt="blog" />
           </div>
         </div>
       </div>
