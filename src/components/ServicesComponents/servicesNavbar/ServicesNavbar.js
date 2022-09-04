@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const ServicesNavbar = () => {
     return (
-        <div>
+        <div className='mt-0'>
             <div className='bg-zinc-100 '>
                 <ul className='flex items-center justify-center text-[1.2rem] font-semibold text-[#2A334E]'>
                     <li className='px-[2rem] py-[1.6rem] bg-[#33d687] text-white'><Link to="/services/HeartSurgery">Heart Surgery</Link></li>
