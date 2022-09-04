@@ -2,7 +2,18 @@ import React from "react";
 import { useState } from "react";
 
 export default function SingleBlogs() {
-  const [set, se] = useState([]);
+  const posts = [
+    {
+      image: "https://i.ibb.co/pj5sTZX/blog-04.png",
+      text: "Prev Post",
+      content: "Heart Transplant development solutions for great surgery.",
+    },
+    {
+      image:"https://i.ibb.co/xJ5VrYV/blog-05.png",
+      text:'Next Post',
+      content:'How to take care of Heart Health?',
+    }
+  ];
   return (
     <div className="bg-white">
       <div className="container mx-auto">
@@ -65,23 +76,25 @@ export default function SingleBlogs() {
           </div>
         </div>
         {/* Medical */}
-        <div className="flex justify-center my-5 ">
+        <div className="flex justify-center my-8 ">
           <div className="w-[60rem]">
             {" "}
-            <div className="flex space-x-3">
+            <div className="md:flex space-x-3 my-2">
               <img
-                className="w-full h-full"
+                className="w-full h-full my-4"
                 src="https://i.ibb.co/5xSdxQj/blog-03.jpg"
                 alt="blog"
               />
               <img
-                className="w-full h-full"
+                className="w-full h-full my-4"
                 src="https://i.ibb.co/NtFh6wM/blog-02.jpg"
                 alt="blog"
               />
             </div>
             <div>
-              <h2 className="text-dark text-3xl font-semibold my-3">The Medical Experts Carefully Transplant The Heart</h2>
+              <h2 className="text-dark text-3xl font-semibold my-3">
+                The Medical Experts Carefully Transplant The Heart
+              </h2>
               <p className="text-gray-400 my-4">
                 You are nothing without your set eyes care set injury magna
                 consectr elit, do eiusmod tempor incididunt or ut labore areas
@@ -90,6 +103,26 @@ export default function SingleBlogs() {
                 heart care.
               </p>
             </div>
+            {/* Tages */}
+            <div className="flex justify-between">
+              <div className="flex space-x-4">
+                <h2 className="py-2 text-lg">Tages:</h2>
+                <button className="border px-4 py-2 hover:bg-dark hover:text-white">
+                  Heart
+                </button>
+                <button className="border px-4 py-2 hover:bg-dark hover:text-white">
+                  Transplant
+                </button>
+              </div>
+              <div className="flex space-x-6 justify-center items-center ">
+                <i className="fa-brands fa-twitter "></i>
+                <i className="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-pinterest-p"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+            {/* Blog Posts */}
+            <div>ws</div>
           </div>
         </div>
       </div>
