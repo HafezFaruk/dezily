@@ -122,7 +122,7 @@ export default function SingleBlogs() {
               </div>
             </div>
             {/* Blog Posts */}
-            <div className="flex justify-between my-5 ">
+            <div className="flex justify-between my-8 ">
               {posts.map((x) => (
                 <div className="flex space-x-3">
                   <div>
@@ -134,6 +134,40 @@ export default function SingleBlogs() {
                   </div>
                 </div>
               ))}
+            </div>
+            {/* Input Form */}
+            <div className="my-[5rem]">
+              <h2 className="text-dark text-3xl font-semibold my-2">
+                Leave a Reply
+              </h2>
+              <p className="text-gray-400">
+                Your email address will not be published.
+              </p>
+
+              <div className="flex space-x-4 justify-center  my-5">
+                <input
+                  className="w-full border-gray-400 rounded bg-service-color"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  className="w-full border-gray-400 rounded bg-service-color"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  className="w-full border-gray-400 rounded bg-service-color"
+                  type="text"
+                  placeholder="Website"
+                />
+              </div>
+              <div>
+                <textarea
+                  placeholder="comments"
+                  className="resize border-gray-400 w-full rounded bg-service-color"
+                ></textarea>
+                <button></button>
+              </div>
             </div>
           </div>
         </div>
