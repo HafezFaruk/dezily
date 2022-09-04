@@ -18,7 +18,7 @@ const HeartSurgery = () => {
     return (
         <div>
             <div className='container mx-auto main-w-[1100px]'>
-                <div className='px-[120px] pt-[120px] pb-10 items-center justify-center grid grid-cols-2'>
+                <div className='px-[120px] pt-[100px] pb-10 items-center justify-center grid grid-cols-2'>
                     <div className='p-[0.9rem]'>
                         <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>The Heart Care Heart Hospital Latest & Best Technology.</h1>
 
@@ -147,7 +147,7 @@ const HeartSurgery = () => {
 
 
 
-            <div className="bg-stepsBg h-[90vh] bg-cover bg-center">
+            <div className="bg-steps h-[90vh] bg-cover bg-center">
                 <div className='container mx-auto main-w-[1100px] px-[120px] pt-[80px]'>
                     <div className='text-center'>
                         <p className='font-semibold text-[18px] text-[#33d687]'>OUR STEPS</p>
@@ -207,50 +207,6 @@ const HeartSurgery = () => {
                 </div>
 
             </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            {/* <div className='bg-[#252E47] h-[50vh] grid grid-cols-3 items-center justify-center pl-[170px]'>
-
-                <div className='items-center justify-center'>
-                    <h1 className='text-[20px] font-semibold leading-[32px] text-white'>Subscribe With Us</h1>
-                    <p className='text-[15px] leading-[26px] font-medium text-zinc-400 pb-[1rem]'>For any help mail us. 24/7 emergency services</p>
-
-                    <div className='flex mt-[1.5rem]'>
-                        <input className='h-[45px] w-[500px] p-3 bg-[#2A3350]' type="email" placeholder='Enter Your Email' />
-                        <button className='h-[45px] w-[150px] bg-[#33d687] p-2 font-semibold text-white hover:text-[#2A3350]'>Message</button>
-                    </div>
-                </div>
-
-
-                <div className='pl-[75px] mt-5'>
-                    <p className='text-[15px] leading-[26px] font-medium text-zinc-400 pb-[1rem]'>With More 25+ Hospitals <br /> In United States,Europe, and Asia</p>
-                    <p className='bg-zinc-500 h-[1px] w-[220px] mt-[20px] mb-[30px]'></p>
-
-                    <div className='flex'>
-                        <p className='text-[36px] leading-[36px] font-semibold text-[#33d687]'>25+</p>
-                        <p className='text-[36px] leading-[36px] pl-3 font-semibold text-[#33d687]'>Hospitals</p>
-                    </div>
-                </div>
-
-
-                <div className='ml-[60px]'>
-                    <button className='border-2 border-white py-2.5 px-6 font-medium text-white hover:bg-white hover:text-[#2A3350] hover:font-semibold'>View Our Locations</button>
-                </div>
-
-            </div> */}
-
-
-
 
 
 

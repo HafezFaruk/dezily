@@ -20,50 +20,54 @@ export const navLinks = [
     ],
     services: [
       {
-        name: "services",
-        link: "/",
+        name: "Heart Surgery",
+        link: "/services/HeartSurgery",
       },
       {
-        name: "services",
-        link: "/",
+        name: "Valve Diseases",
+        link: "/services/ValveDiseases",
       },
       {
-        name: "services",
-        link: "/",
+        name: "Children Services",
+        link: "/services/ChildrenServices",
+      },
+      {
+        name: "Heart Transplant",
+        link: "/services/HeartTransplant",
+      },
+      {
+        name: "Endocrinology",
+        link: "/services/Endocrinology",
+      },
+
+      {
+        name: "Cardiac Surgery",
+        link: "/services/CardiacSurgery",
       },
     ],
     portfolio: [
       {
-        name: "portfolio",
-        link: "/",
+        name: "Project Style One",
+        link: "/portfolio/ProjectStyleOne",
       },
       {
-        name: "portfolio",
-        link: "/",
-      },
-      {
-        name: "portfolio",
-        link: "/",
-      },
-      {
-        name: "portfolio",
-        link: "/",
+        name: "Project Single View",
+        link: "/portfolio/ProjectSingleView",
       },
     ],
     blog: [
       {
-        name: "blog",
-        link: "/",
+        name: "Blog Classic",
+        link: "/blog/BlogClassic",
       },
       {
-        name: "blog",
-        link: "/",
+        name: "Blog Grid View",
+        link: "/blog/BlogGridView",
       },
       {
-        name: "blog",
-        link: "/",
+        name: "Blog Single View",
+        link: "/blog/BlogSingleView",
       },
     ],
   },
 ];
-

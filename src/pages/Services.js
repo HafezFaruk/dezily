@@ -1,24 +1,12 @@
+import React from 'react'
+import { Outlet } from 'react-router-dom'
+import ServicesNavbar from '../components/ServicesComponents/servicesNavbar/ServicesNavbar'
 
-
-
-import React from 'react';
-import Banner from '../components/ServicesComponents/banner/Banner';
-import ServicesNavbar from '../components/ServicesComponents/servicesNavbar/ServicesNavbar';
-import HeartSurgery from '../components/ServicesComponents/HeartSurgery/HeartSurgery';
-import {Outlet} from 'react-router-dom'
-
-
-
-const Services = () => {
+function Services() {
   return (
     <div>
-      <Banner />
       <ServicesNavbar />
-
       <Outlet />
-
-      <HeartSurgery />
-
     </div>
   )
 }

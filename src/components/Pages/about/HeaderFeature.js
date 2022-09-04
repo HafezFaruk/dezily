@@ -5,7 +5,7 @@ const HeaderFeature = ({ tab }) => {
     <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-[28rem] bg-cover bg-center">
       <img
         className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
-        src="https://i.ibb.co/s1G8t79/pagetitle-bg.jpg"
+        src="https://i.ibb.co/s1G8t79/pagetitle-bg.jpgT"
         alt=""
       />
 
