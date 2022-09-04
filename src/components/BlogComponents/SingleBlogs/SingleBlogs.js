@@ -166,7 +166,7 @@ export default function SingleBlogs() {
                   placeholder="comments"
                   className="resize border-gray-400 w-full rounded bg-service-color"
                 ></textarea>
-                <button></button>
+                <button className="bg-green text-white p-3 my-4 rounded">Post Comments</button>
               </div>
             </div>
           </div>
