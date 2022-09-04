@@ -23,6 +23,7 @@ module.exports = {
         heart_Beat: "url('https://i.ibb.co/xm4yt5Q/bgImg.png')",
         health: "url('https://i.ibb.co/Ms4FNnG/row-bgimage-2.jpg')",
         openingHour: `url('https://themetechmount.com/html/dezily/images/bg-image/col-bgimage-7.png')`,
+        apple: `url('https://i.ibb.co/TmCp27r/pagetitle-bg.jpg')`,
       },
     },
   },
