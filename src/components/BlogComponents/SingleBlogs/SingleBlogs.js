@@ -81,7 +81,7 @@ export default function SingleBlogs() {
               />
             </div>
             <div>
-              <h2 className="text-dark text-2xl font-semibold my-2">The Medical Experts Carefully Transplant The Heart</h2>
+              <h2 className="text-dark text-3xl font-semibold my-3">The Medical Experts Carefully Transplant The Heart</h2>
               <p className="text-gray-400 my-4">
                 You are nothing without your set eyes care set injury magna
                 consectr elit, do eiusmod tempor incididunt or ut labore areas
