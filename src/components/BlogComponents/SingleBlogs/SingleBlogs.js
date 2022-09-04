@@ -57,7 +57,39 @@ export default function SingleBlogs() {
         <div className="flex justify-center my-5 ">
           <div className="w-[60rem]">
             {" "}
-            <img className="w-full h-full" src="https://i.ibb.co/TR9ZK64/blog-01.jpg" alt="blog" />
+            <img
+              className="w-full h-full"
+              src="https://i.ibb.co/TR9ZK64/blog-01.jpg"
+              alt="blog"
+            />
+          </div>
+        </div>
+        {/* Medical */}
+        <div className="flex justify-center my-5 ">
+          <div className="w-[60rem]">
+            {" "}
+            <div className="flex space-x-3">
+              <img
+                className="w-full h-full"
+                src="https://i.ibb.co/5xSdxQj/blog-03.jpg"
+                alt="blog"
+              />
+              <img
+                className="w-full h-full"
+                src="https://i.ibb.co/NtFh6wM/blog-02.jpg"
+                alt="blog"
+              />
+            </div>
+            <div>
+              <h2 className="text-dark text-2xl font-semibold my-2">The Medical Experts Carefully Transplant The Heart</h2>
+              <p className="text-gray-400 my-4">
+                You are nothing without your set eyes care set injury magna
+                consectr elit, do eiusmod tempor incididunt or ut labore areas
+                disease eyecare dolore aliqua. Ut enim ad et minim veniam, and
+                quis nostrud exercitation produrYou are nothing witout your set
+                heart care.
+              </p>
+            </div>
           </div>
         </div>
       </div>
