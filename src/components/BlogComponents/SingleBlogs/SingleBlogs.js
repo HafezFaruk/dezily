@@ -9,10 +9,10 @@ export default function SingleBlogs() {
       content: "Heart Transplant development solutions for great surgery.",
     },
     {
-      image:"https://i.ibb.co/xJ5VrYV/blog-05.png",
-      text:'Next Post',
-      content:'How to take care of Heart Health?',
-    }
+      image: "https://i.ibb.co/xJ5VrYV/blog-05.png",
+      text: "Next Post",
+      content: "How to take care of Heart Health?",
+    },
   ];
   return (
     <div className="bg-white">
@@ -122,7 +122,19 @@ export default function SingleBlogs() {
               </div>
             </div>
             {/* Blog Posts */}
-            <div>ws</div>
+            <div className="flex justify-between">
+              {posts.map((x) => (
+                <div className="flex">
+                  <div>
+                    <img src={x.image} alt="" />
+                  </div>
+                  <div>
+                    <p>{x.text}</p>
+                    <h2>{x.content}</h2>
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>
