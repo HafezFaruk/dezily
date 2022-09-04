@@ -1,18 +1,8 @@
 import { Footer } from "flowbite-react";
 import React from "react";
-import  { useEffect } from "react";
-import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Patient() {
-  useEffect(() => {
-    AOS.init(
-      {
-        duration: 1500,
-      }
-    );
-    AOS.refresh();
-  
-  }, []);
+
   const items = [
     {
       image: "https://i.ibb.co/hLQ55m5/blog-06.jpg",
