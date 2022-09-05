@@ -1,7 +1,6 @@
 import React from "react";
-import HeaderFeature from "./../../Pages/about/HeaderFeature";
 
-export default function TopBanner() {
+export default function GridComponents() {
   const items = [
     {
       image: "https://i.ibb.co/tYqwX6L/post-01.jpg",
@@ -41,13 +40,5 @@ export default function TopBanner() {
       content: "The medical Experts carefully Transplant the Heart You are",
     },
   ];
-  return (
-    <div>
-      <div className="bg-blogBanner md:bg-cover bg-no-repeat md:h-100">
-        <div className="h-[28rem]">
-          <HeaderFeature tab="Blog " />
-        </div>
-      </div>
-    </div>
-  );
+  return <div>GridComponents</div>;
 }

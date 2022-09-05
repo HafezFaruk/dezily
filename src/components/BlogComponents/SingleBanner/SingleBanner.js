@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderFeature from './../../Pages/about/HeaderFeature';
+import HeaderFeature from "./../../Pages/about/HeaderFeature";
 
 export default function SingleBanner() {
   return (
