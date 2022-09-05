@@ -159,20 +159,7 @@ const ValveDiseases = () => {
             <div className='px-[120px] py-10 bg-zinc-200'>
                 <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center text-center'>
                     <p className='text-[1rem] font-bold pb-[0.8rem] text-[#33d687]'>WHAT WE HAVE</p>
-                    <h1 className='text-[2.5rem] font-semibold pb-[1rem]'>Few Reason Why You Should <br /> Choose Us</h1>
-
-
-
-
-
-                    <div className='grid grid-cols-4 gap-7'>
-                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-full bg-cover bg-center">
-                            <img
-                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
-                                src="https://i.ibb.co/p4qv8cW/service-07.png"
-                                alt=""
-                            />
-                        </div>
+                    <h1 className='text-[2.5rem] font-semibold pb-[1rem] leading-[2.8rem] text-[#2A334E] mb-[2.4rem]'>Few Reason Why You Should <br /> Choose Us</h1>
 
 
 
@@ -180,42 +167,11 @@ const ValveDiseases = () => {
 
 
 
-                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-full bg-cover bg-center">
-                            <img
-                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
-                                src="https://i.ibb.co/LnYtp7D/service-05.png"
-                                alt=""
-                            />
-                        </div>
 
 
 
 
-
-
-
-                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-full bg-cover bg-center">
-                            <img
-                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
-                                src="https://i.ibb.co/G9mgBzY/service-06.png"
-                                alt=""
-                            />
-                        </div>
-
-
-
-
-
-
-
-                        <div className="bg-gradient-to-tr from-gray-700 to-gray-600 w-full relative h-[50vh] bg-cover bg-center">
-                            <img
-                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
-                                src="https://i.ibb.co/vC5MY9X/service-08.png"
-                                alt=""
-                            />
-                        </div>
-                    </div>
+                    
 
                 </div>
 

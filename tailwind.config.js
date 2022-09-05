@@ -26,6 +26,7 @@ module.exports = {
         wwh2: "url('https://i.ibb.co/LnYtp7D/service-05.png')",
         wwh3: "url('https://i.ibb.co/G9mgBzY/service-06.png')",
         wwh4: "url('https://i.ibb.co/vC5MY9X/service-08.png')",
+        wwh5: "url('https://i.ibb.co/pzP1WRs/service-13.png')",
 
       },
 
