@@ -4,6 +4,7 @@ import heartImg2 from '../assets/heartImg2.jpg'
 import { BiCheck } from 'react-icons/bi'
 import { RiHeartPulseLine } from 'react-icons/ri'
 import { GiHeartOrgan } from 'react-icons/gi';
+import ValveSlider from './ValveSlider'
 
 
 
@@ -162,16 +163,8 @@ const ValveDiseases = () => {
                     <h1 className='text-[2.5rem] font-semibold pb-[1rem] leading-[2.8rem] text-[#2A334E] mb-[2.4rem]'>Few Reason Why You Should <br /> Choose Us</h1>
 
 
+                    <ValveSlider />
 
-
-
-
-
-
-
-
-
-                    
 
                 </div>
 
