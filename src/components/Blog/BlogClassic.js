@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import Patient from "../BlogComponents/Patient/Patient";
+import TopBanner from "./../BlogComponents/TopBanner/TopBanner";
 function BlogClassic() {
   return (
-    <div>BlogClassic</div>
-  )
+    <div>
+      <TopBanner />
+      <Patient />
+    </div>
+  );
 }
 
-export default BlogClassic
+export default BlogClassic;

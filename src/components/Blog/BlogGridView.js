@@ -1,9 +1,10 @@
-import React from 'react'
-
+import React from "react";
+import GridBanner from "../BlogComponents/GridBanner/GridBanner";
 function BlogGridView() {
   return (
-    <div>BlogGridView</div>
-  )
+    <div>
+      <GridBanner />
+    </div>
+  );
 }
-
-export default BlogGridView
+export default BlogGridView;
