@@ -43,9 +43,17 @@ export default function GridComponents() {
   return (
     <div className="bg-service-color">
       <div className="container mx-auto">
-        <div>
+        <div className="grid grid-rows-3 grid-flow-col gap-4">
           {items.map((x) => (
-            <div>s</div>
+            <div>
+              <div>
+                <img src={x.image} alt="" />
+              </div>
+              <div>
+                <p>{x.title}</p>
+                <h2>{x.subtitle}</h2>
+              </div>
+            </div>
           ))}
         </div>
       </div>
