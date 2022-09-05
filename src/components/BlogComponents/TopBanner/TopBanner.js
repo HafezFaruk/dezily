@@ -42,10 +42,15 @@ export default function TopBanner() {
     },
   ];
   return (
-    <div className="bg-blogBanner md:bg-cover bg-no-repeat md:h-100">
+    <div>
+       <div className="bg-blogBanner md:bg-cover bg-no-repeat md:h-100">
       <div className="h-[28rem]">
         <HeaderFeature tab="Blog " />
       </div>
+
+      <div className="container mx-auto"></div>
     </div>
+    </div>
+   
   );
 }
