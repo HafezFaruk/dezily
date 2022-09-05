@@ -1,16 +1,16 @@
 import React from "react";
 import HeaderFeature from "../about/HeaderFeature";
-import ServicePage from "./ServicePage";
+import FAQDetails from "./FAQDetails";
 
-const Service = () => {
+const FAQ = () => {
   return (
     <div>
       <div className="h-[32rem]">
-        <HeaderFeature tab="Services" />
+        <HeaderFeature tab="FAQ" />
       </div>
-      <ServicePage />
+      <FAQDetails />
     </div>
   );
 };
 
-export default Service;
+export default FAQ;

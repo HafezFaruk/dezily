@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
 
 
@@ -19,21 +22,16 @@ module.exports = {
         "service-color": "#f5f5f5",
       },
       backgroundImage: {
+        blogBanner: "url('https://i.ibb.co/JtRhR56/pagetitle-bg.jpg')",
         heart_Beat: "url('https://i.ibb.co/xm4yt5Q/bgImg.png')",
         health: "url('https://i.ibb.co/Ms4FNnG/row-bgimage-2.jpg')",
-        steps: "url('https://i.ibb.co/BgGkpF2/row-bgimage-7.png')",
-        wwh1: "url('https://i.ibb.co/p4qv8cW/service-07.png')",
-        wwh2: "url('https://i.ibb.co/LnYtp7D/service-05.png')",
-        wwh3: "url('https://i.ibb.co/G9mgBzY/service-06.png')",
-        wwh4: "url('https://i.ibb.co/vC5MY9X/service-08.png')",
-        wwh5: "url('https://i.ibb.co/pzP1WRs/service-13.png')",
-
+        openingHour: `url('https://themetechmount.com/html/dezily/images/bg-image/col-bgimage-7.png')`,
+        apple: `url('https://i.ibb.co/TmCp27r/pagetitle-bg.jpg')`,
       },
 
 
     },
 
   },
-  plugins: [],
+  plugins: [require("flowbite/plugin")],
 };
-
