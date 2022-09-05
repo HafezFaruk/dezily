@@ -2,7 +2,18 @@ import React from "react";
 import { useState } from "react";
 
 export default function SingleBlogs() {
-  const [set, se] = useState([]);
+  const posts = [
+    {
+      image: "https://i.ibb.co/pj5sTZX/blog-04.png",
+      text: "Prev Post",
+      content: "Heart Transplant development solutions",
+    },
+    {
+      image: "https://i.ibb.co/xJ5VrYV/blog-05.png",
+      text: "Next Post",
+      content: "How to take care of Heart Health?",
+    },
+  ];
   return (
     <div className="bg-white">
       <div className="container mx-auto">
@@ -29,8 +40,8 @@ export default function SingleBlogs() {
           </div>
         </div>
         <div className="flex justify-center">
-          <div className="w-[60rem] bg-service-color">
-            <div className="p-8 relative">
+          <div className="w-[60rem] bg-service-color my-20">
+            <div className="p-8 ">
               <h2 className="text-2xl font-semibold text-dark">
                 Cardio technology strategy and the roaplement that? The leaders
                 arrefreshing it constantly and business decisions.
@@ -40,8 +51,123 @@ export default function SingleBlogs() {
             </div>
             {/* Quote */}
             {/* Quote */}
-            <div className="bg-white absolute top-[53.2rem] right-[0]  rounded">
-              <img src="https://i.ibb.co/dP2h9PH/quote.png" alt="quote" />
+          </div>
+        </div>
+        {/* text */}
+        <div className="flex justify-center my-5 ">
+          <div className="w-[60rem]">
+            {" "}
+            <p className="text-center p-2 text-lg text-gray-400 my-5 leading-9">
+              Cardiology is a branch of medicine that deals with the disorders
+              of the heart as well as some parts of the cardiovascular system.
+              The field includes medical .
+            </p>
+          </div>
+        </div>
+        {/* Image */}
+        <div className="flex justify-center my-5 ">
+          <div className="w-[60rem]">
+            {" "}
+            <img
+              className="w-full h-full"
+              src="https://i.ibb.co/TR9ZK64/blog-01.jpg"
+              alt="blog"
+            />
+          </div>
+        </div>
+        {/* Medical */}
+        <div className="flex justify-center my-8 ">
+          <div className="w-[60rem]">
+            {" "}
+            <div className="md:flex space-x-3 my-2">
+              <img
+                className="w-full h-full my-4"
+                src="https://i.ibb.co/5xSdxQj/blog-03.jpg"
+                alt="blog"
+              />
+              <img
+                className="w-full h-full my-4"
+                src="https://i.ibb.co/NtFh6wM/blog-02.jpg"
+                alt="blog"
+              />
+            </div>
+            <div>
+              <h2 className="text-dark text-3xl font-semibold my-3">
+                The Medical Experts Carefully Transplant The Heart
+              </h2>
+              <p className="text-gray-400 my-4">
+                You are nothing without your set eyes care set injury magna
+                consectr elit, do eiusmod tempor incididunt or ut labore areas
+                disease eyecare dolore aliqua. Ut enim ad et minim veniam, and
+                quis nostrud exercitation produrYou are nothing witout your set
+                heart care.
+              </p>
+            </div>
+            {/* Tages */}
+            <div className="flex justify-between">
+              <div className="flex space-x-4">
+                <h2 className="py-2 text-lg">Tages:</h2>
+                <button className="border px-4 py-2 hover:bg-dark hover:text-white">
+                  Heart
+                </button>
+                <button className="border px-4 py-2 hover:bg-dark hover:text-white">
+                  Transplant
+                </button>
+              </div>
+              <div className="flex space-x-6 justify-center items-center ">
+                <i className="fa-brands fa-twitter "></i>
+                <i className="fa-brands fa-facebook-f"></i>
+                <i className="fa-brands fa-pinterest-p"></i>
+                <i className="fa-brands fa-linkedin-in"></i>
+              </div>
+            </div>
+            {/* Blog Posts */}
+            <div className="flex justify-between my-8 ">
+              {posts.map((x) => (
+                <div className="flex space-x-3">
+                  <div>
+                    <img src={x.image} alt="" />
+                  </div>
+                  <div>
+                    <p className="text-dark ">{x.text}</p>
+                    <h2 className="text-dark text-xl font-bold">{x.content}</h2>
+                  </div>
+                </div>
+              ))}
+            </div>
+            {/* Input Form */}
+            <div className="my-[5rem]">
+              <h2 className="text-dark text-3xl font-semibold my-2">
+                Leave a Reply
+              </h2>
+              <p className="text-gray-400">
+                Your email address will not be published.
+              </p>
+
+              <div className="flex space-x-4 justify-center  my-5">
+                <input
+                  className="w-full border-gray-400 rounded bg-service-color"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  className="w-full border-gray-400 rounded bg-service-color"
+                  type="text"
+                  placeholder="Name"
+                />
+                <input
+                  className="w-full border-gray-400 rounded bg-service-color"
+                  type="text"
+                  placeholder="Website"
+                />
+              </div>
+              <div>
+                <textarea
+                  placeholder="comments"
+                  className="resize border-gray-400 w-full md:h-[13rem] rounded bg-service-color"
+                ></textarea>
+                <button className="bg-green text-white p-3 my-4 rounded">Post Comments</button>
+              </div>
             </div>
           </div>
         </div>
