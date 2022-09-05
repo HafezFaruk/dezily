@@ -4,7 +4,8 @@ import heartImg2 from '../assets/heartImg2.jpg'
 import { BiCheck } from 'react-icons/bi'
 import { RiHeartPulseLine } from 'react-icons/ri'
 import { GiHeartOrgan } from 'react-icons/gi';
-import ValveSlider from './ValveSlider'
+import ValveSlider from './ValveSlider';
+// import { GiHeartOrgan } from 'react-icons/gi';
 
 
 
@@ -183,8 +184,23 @@ const ValveDiseases = () => {
 
 
             <div className='px-[120px] py-1'>
-                <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center text-center'>
+                <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center'>
                     <div>
+
+                        <div className='grid grid-cols-3 text-start'>
+
+                            <div>
+                                <p className='text-[0.9rem] font-medium leading-[1.8rem] pb-[0.2rem] text-[#33d687]'>ABOUT Dezily</p>
+                                <h1 className='text-[2.5rem] leading-[2.8rem] font-semibold text-[#2A334E]'>We Are Achieve The <br /> Success Of Heart <br /> Surgery</h1>
+                            </div>
+
+                            <div>hello</div>
+                            <div>hello</div>
+                        </div>
+
+
+
+
                         <div className='grid grid-cols-3'>
                             <div>hello</div>
                             <div>hello</div>
@@ -198,12 +214,6 @@ const ValveDiseases = () => {
                             <div>hello</div>
                         </div>
 
-
-                        <div className='grid grid-cols-3'>
-                            <div>hello</div>
-                            <div>hello</div>
-                            <div>hello</div>
-                        </div>
                     </div>
                 </div>
             </div>
