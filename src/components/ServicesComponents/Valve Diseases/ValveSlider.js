@@ -53,15 +53,17 @@ const ValveSlider = () => {
 
                 {valveData.map(item => (
                     <div className='px-[1rem]'>
-                        <div className="bg-gradient-to-tr from-zinc-700 to-zinc-600 w-full relative h-[18rem] bg-cover bg-center">
+                        <div className="bg-gradient-to-tr overflow-hidden from-zinc-700 to-zinc-600 w-full relative h-[18rem] bg-cover bg-center">
                             <img
-                                className="w-full absolute mix-blend-overlay h-full bg-center object-cover"
+                                className="transition duration-1000 hover:scale-125 w-full absolute mix-blend-overlay h-full bg-center object-cover"
                                 src={item.img}
                                 alt=""
                             />
-                            <div className='p-[2rem]'>
-                                <p className='text-[0.9rem] font-medium text-[#0de67d] pb-[0.6rem]'>{item.name}</p>
-                                <h1 className='text-[1.4rem] font-semibold text-white leading-[1.5rem]'>{item.title}</h1>
+                            <div className='p-[2rem] flex items-center h-full'>
+                                <div>
+                                    <p className='text-[0.9rem] font-medium text-[#0de67d] pb-[0.6rem]'>{item.name}</p>
+                                    <h1 className='text-[1.4rem] font-semibold text-white leading-[1.5rem]'>{item.title}</h1>
+                                </div>
                             </div>
                         </div>
                     </div>

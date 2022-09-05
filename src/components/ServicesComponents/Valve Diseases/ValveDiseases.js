@@ -142,6 +142,8 @@ const ValveDiseases = () => {
                 </div>
 
 
+
+
             </div>
 
 
@@ -169,6 +171,44 @@ const ValveDiseases = () => {
                 </div>
 
             </div>
+
+
+
+
+
+
+
+
+
+
+
+            <div className='px-[120px] py-1'>
+                <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center text-center'>
+                    <div>
+                        <div className='grid grid-cols-3'>
+                            <div>hello</div>
+                            <div>hello</div>
+                            <div>hello</div>
+                        </div>
+
+
+                        <div className='grid grid-cols-3'>
+                            <div>hello</div>
+                            <div>hello</div>
+                            <div>hello</div>
+                        </div>
+
+
+                        <div className='grid grid-cols-3'>
+                            <div>hello</div>
+                            <div>hello</div>
+                            <div>hello</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
 
 
 
