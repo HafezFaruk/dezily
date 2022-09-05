@@ -41,13 +41,13 @@ export default function GridComponents() {
     },
   ];
   return (
-    <div className="bg-service-color">
+    <div className="bg-service-color ">
       <div className="container mx-auto">
-        <div className="grid grid-rows-3 grid-flow-col gap-4">
+        <div className="grid grid-rows-3 grid-flow-col gap-4 ">
           {items.map((x) => (
-            <div>
+            <div className="flex gap-3 bg-white">
               <div>
-                <img src={x.image} alt="" />
+                <img className="h-[15rem]" src={x.image} alt="" />
               </div>
               <div>
                 <p>{x.title}</p>
