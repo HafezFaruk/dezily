@@ -5,7 +5,7 @@ function BlogGridView() {
   return (
     <div>
       <GridBanner />
-      <GridComponents/>
+      <GridComponents />
     </div>
   );
 }

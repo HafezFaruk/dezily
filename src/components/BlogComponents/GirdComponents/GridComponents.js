@@ -40,5 +40,15 @@ export default function GridComponents() {
       content: "The medical Experts carefully Transplant the Heart You are",
     },
   ];
-  return <div>GridComponents</div>;
+  return (
+    <div className="bg-service-color">
+      <div className="container mx-auto">
+        <div>
+          {items.map((x) => (
+            <div>s</div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
 }
