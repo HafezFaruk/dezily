@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import ContactBanner from "../ContactComponents/ContactBanner/ContactBanner";
 
 function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <div>
+      <h2>Contact</h2>
+    </div>
+  );
 }
 
-export default Contact
+export default Contact;
