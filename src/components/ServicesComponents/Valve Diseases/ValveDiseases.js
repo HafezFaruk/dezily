@@ -186,9 +186,11 @@ const ValveDiseases = () => {
                 <div className='container mx-auto main-w-[1100px] px-6 pt-14 mb-[6rem] items-center justify-center -m-[7rem]'>
                     <div>
 
+
+
                         <div className='grid grid-cols-3 text-start'>
 
-                            <div>
+                            <div className='pt-[7rem]'>
                                 <p className='text-[0.9rem] font-medium leading-[1.8rem] text-[#33d687]'>About Dezily</p>
                                 <h1 className='text-[2.5rem] leading-[2.8rem] font-semibold text-[#2A334E]'>We Are Achieve The <br /> Success Of Heart <br /> Surgery</h1>
                             </div>
@@ -202,6 +204,13 @@ const ValveDiseases = () => {
 
                             <div></div>
                         </div>
+
+
+
+
+
+
+
 
 
 
@@ -236,17 +245,48 @@ const ValveDiseases = () => {
                             </div>
 
                             <div>
-                                <img src="https://i.ibb.co/f0wCqbH/heart-Img2.jpg" alt="" />
+                                <img className='h-[21.1rem]' src="https://i.ibb.co/f0wCqbH/heart-Img2.jpg" alt="" />
                             </div>
-                            <div>hello</div>
+
+
+                            <div className='bg-[#2A334E] p-[2.5rem] text-white'>
+                                <span className='text-[3.1rem]'><GiHeartOrgan /></span>
+                                <h1 className='text-[1.7rem] font-medium py-3'>Nuclear Stress Testing </h1>
+                                <p className='text-[1rem] leading-[1.8rem]'>Treatment of congenital heart defects the disease and electrophysiology.</p>
+                                <p className='font-medium pt-[1.4rem]'>View More</p>
+                            </div>
+
                         </div>
+
+
+
+
+
 
 
                         <div className='grid grid-cols-3'>
-                            <div>hello</div>
+
+
+                            <div className='bg-[#33d687] p-[2.5rem] text-white'>
+                                <span className='text-[3.1rem]'><GiHeartOrgan /></span>
+                                <h1 className='text-[1.7rem] font-medium py-3'>The Heart care Hospital</h1>
+                                <p className='text-[1rem] leading-[1.8rem]'>We have all the latest technology to treat our patients to give them best.</p>
+                                <p className='font-medium pt-[1.4rem]'>View More</p>
+                            </div>
+
+
+
                             <div>hello</div>
                             <div>hello</div>
                         </div>
+
+
+
+
+
+
+
+
 
                     </div>
                 </div>
