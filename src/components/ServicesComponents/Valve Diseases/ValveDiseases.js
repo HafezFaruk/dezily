@@ -301,7 +301,7 @@ const ValveDiseases = () => {
 
 
                             <div>
-                                <img src="https://i.ibb.co/0KY6Qcb/col-bgimage-10.png" alt="" />
+                                <img className='h-[21.1rem]' src="https://i.ibb.co/7p2Zd8v/heart-Img1.jpg" alt="" />
                             </div>
                         </div>
 
