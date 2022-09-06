@@ -159,7 +159,7 @@ const ValveDiseases = () => {
 
 
 
-            <div className='px-[70px] py-10 bg-zinc-200'>
+            <div className='px-[70px] py-10 bg-zinc-100'>
                 <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center text-center'>
                     <p className='text-[1rem] font-bold pb-[0.8rem] text-[#33d687]'>WHAT WE HAVE</p>
                     <h1 className='text-[2.5rem] font-semibold pb-[1rem] leading-[2.8rem] text-[#2A334E] mb-[2.4rem]'>Few Reason Why You Should <br /> Choose Us</h1>
@@ -207,8 +207,37 @@ const ValveDiseases = () => {
 
 
                         <div className='grid grid-cols-3'>
-                            <div>hello</div>
-                            <div>hello</div>
+
+                            <div className='mb-[1.5rem]'>
+                                <p className='text-zinc-500 font-medium text-[1.1rem] leading-[1.7rem]'>A surgical option to treat advanced heart failure, occurs when the heart can't pump enough the <br /> body's organs.</p>
+
+                                <div className='py-[2rem]'>
+                                    <div className='flex text-[#2A334E] py-[0.8rem]'>
+                                        <div className='bg-zinc-100 font-bold p-[1.1rem]'>75%</div>
+
+                                        <div className='pl-[1.8rem]'>
+                                            <p className='text-[1.2rem] font-bold'>Heart Transplant</p>
+                                            <p className='bg-[#2A334E] h-[0.5rem] w-[10rem]'></p>
+                                            <p className='bg-zinc-400 h-[1px] w-[15.5rem] mt-[0.5rem]'></p>
+                                        </div>
+
+                                    </div>
+
+                                    <div className='flex text-[#2A334E] py-[0.8rem]'>
+                                        <div className='bg-zinc-100 font-bold p-[1.1rem]'>95%</div>
+                                        <div className='pl-[1.8rem]'>
+                                            <p className='text-[1.2rem] font-bold'>Heart surgery</p>
+                                            <p className='bg-[#2A334E] h-[0.5rem] w-[14rem]'></p>
+                                            <p className='bg-zinc-400 h-[1px] w-[15.5rem] mt-[0.5rem]'></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div>
+                                <img src="https://i.ibb.co/f0wCqbH/heart-Img2.jpg" alt="" />
+                            </div>
                             <div>hello</div>
                         </div>
 
