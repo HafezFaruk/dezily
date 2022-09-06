@@ -28,13 +28,13 @@ export default function ContactUs() {
                 <i className="fi fi-rr-pulse hover:text-white text-center text-4xl w-full mt-2 p-5 "></i>
               </div>
               <div>
-                {" "}
+                
                 <h2 className="text-start text-dark text-md font-bold pl-2">
-                  {" "}
+                
                   Heart Transplante
                 </h2>
                 <p className="text-start text-light-gray pl-2">
-                  {" "}
+                 
                   Heart symptoms call us for immediate
                 </p>
               </div>
@@ -44,13 +44,13 @@ export default function ContactUs() {
                 <i className="fi fi-rr-pulse hover:text-white text-center text-4xl w-full p-5 mt-2 "></i>
               </div>
               <div>
-                {" "}
+              
                 <h2 className="text-start text-dark text-md font-bold pl-2">
-                  {" "}
+                  
                   Heart Surgery
                 </h2>
                 <p className="text-start text-light-gray pl-2">
-                  {" "}
+                
                   Heart is get replaced with healthier
                 </p>
               </div>
