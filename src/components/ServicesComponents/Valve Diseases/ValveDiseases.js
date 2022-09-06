@@ -5,7 +5,6 @@ import { BiCheck } from 'react-icons/bi'
 import { RiHeartPulseLine } from 'react-icons/ri'
 import { GiHeartOrgan } from 'react-icons/gi';
 import ValveSlider from './ValveSlider';
-// import { GiHeartOrgan } from 'react-icons/gi';
 
 
 
@@ -22,7 +21,7 @@ const ValveDiseases = () => {
 
 
 
-                <div className='px-[120px] py-10 items-center justify-center grid grid-cols-2'>
+                <div className='px-[70px] py-10 items-center justify-center grid grid-cols-2'>
                     <div>
                         <img src={heartImg2} alt="" />
                     </div>
@@ -77,7 +76,7 @@ const ValveDiseases = () => {
 
 
 
-                <div className='px-[120px] py-10 items-center justify-center grid grid-cols-2'>
+                <div className='px-[70px] py-10 items-center justify-center grid grid-cols-2'>
                     <div className='p-[0.9rem]'>
                         <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>The Heart Care Heart Hospital Latest & Best Technology.</h1>
 
@@ -160,7 +159,7 @@ const ValveDiseases = () => {
 
 
 
-            <div className='px-[120px] py-10 bg-zinc-200'>
+            <div className='px-[70px] py-10 bg-zinc-200'>
                 <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center text-center'>
                     <p className='text-[1rem] font-bold pb-[0.8rem] text-[#33d687]'>WHAT WE HAVE</p>
                     <h1 className='text-[2.5rem] font-semibold pb-[1rem] leading-[2.8rem] text-[#2A334E] mb-[2.4rem]'>Few Reason Why You Should <br /> Choose Us</h1>
@@ -183,19 +182,25 @@ const ValveDiseases = () => {
 
 
 
-            <div className='px-[120px] py-1'>
-                <div className='container mx-auto main-w-[1100px] px-6 pt-14 pb-24 items-center justify-center'>
+            <div className='px-[70px] py-1'>
+                <div className='container mx-auto main-w-[1100px] px-6 pt-14 mb-[6rem] items-center justify-center -m-[7rem]'>
                     <div>
 
                         <div className='grid grid-cols-3 text-start'>
 
                             <div>
-                                <p className='text-[0.9rem] font-medium leading-[1.8rem] pb-[0.2rem] text-[#33d687]'>ABOUT Dezily</p>
+                                <p className='text-[0.9rem] font-medium leading-[1.8rem] text-[#33d687]'>About Dezily</p>
                                 <h1 className='text-[2.5rem] leading-[2.8rem] font-semibold text-[#2A334E]'>We Are Achieve The <br /> Success Of Heart <br /> Surgery</h1>
                             </div>
 
-                            <div>hello</div>
-                            <div>hello</div>
+                            <div className='bg-[#33d687] p-[2.5rem] text-white'>
+                                <span className='text-[3.1rem]'><GiHeartOrgan /></span>
+                                <h1 className='text-[1.7rem] font-medium py-3'>The Heart care Hospital</h1>
+                                <p className='text-[1rem] leading-[1.8rem]'>We have all the latest technology to treat our patients to give them best.</p>
+                                <p className='font-medium pt-[1.4rem]'>View More</p>
+                            </div>
+
+                            <div></div>
                         </div>
 
 

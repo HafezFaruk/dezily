@@ -18,7 +18,7 @@ const HeartSurgery = () => {
     return (
         <div>
             <div className='container mx-auto main-w-[1100px]'>
-                <div className='px-[120px] pt-[100px] pb-10 items-center justify-center grid grid-cols-2'>
+                <div className='px-[70px] pt-[100px] pb-10 items-center justify-center grid grid-cols-2'>
                     <div className='p-[0.9rem]'>
                         <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>The Heart Care Heart Hospital Latest & Best Technology.</h1>
 
@@ -93,7 +93,7 @@ const HeartSurgery = () => {
 
 
 
-                <div className='px-[120px] py-10 items-center justify-center grid grid-cols-2'>
+                <div className='px-[70px] py-10 items-center justify-center grid grid-cols-2'>
                     <div>
                         <img src={heartImg2} alt="" />
                     </div>
@@ -148,7 +148,7 @@ const HeartSurgery = () => {
 
 
             <div className="bg-steps h-[90vh] bg-cover bg-center">
-                <div className='container mx-auto main-w-[1100px] px-[120px] pt-[80px]'>
+                <div className='container mx-auto main-w-[1100px] px-[70px] pt-[80px]'>
                     <div className='text-center'>
                         <p className='font-semibold text-[18px] text-[#33d687]'>OUR STEPS</p>
                         <h2 className='font-semibold text-[43px] text-[#2A334E]'>Our Working Process</h2>
