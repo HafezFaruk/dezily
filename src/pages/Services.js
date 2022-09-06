@@ -1,13 +1,17 @@
 import React from 'react'
-import Banner from '../components/ServicesComponents/banner/Banner'
+import { Outlet } from 'react-router-dom'
 import ServicesNavbar from '../components/ServicesComponents/servicesNavbar/ServicesNavbar'
+import HeaderFeature from '../components/Pages/about/HeaderFeature'
 
 
-const Services = () => {
+function Services() {
   return (
     <div>
-      <Banner />
-      <ServicesNavbar/>
+      <div className="h-[32rem]">
+        <HeaderFeature tab="Services Details" />
+      </div>
+      <ServicesNavbar />
+      <Outlet />
     </div>
   )
 }
