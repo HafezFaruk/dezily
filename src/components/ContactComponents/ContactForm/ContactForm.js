@@ -1,6 +1,26 @@
 import React from "react";
 
 export default function ContactForm() {
+  const items = [
+    {
+      image: "https://i.ibb.co/SJHchgB/doctor.png",
+      title: "Let’s Call or Email",
+      email: "example@evenex.com",
+      phone: "+1800 123 456 7890",
+    },
+    {
+      image: "https://i.ibb.co/gVqg24m/defibrillator.png",
+      title: "Be Creative Our Team",
+      email: "example@evenex.com",
+      phone: "+1800 123 456 7890",
+    },
+    {
+      image: "https://i.ibb.co/FKrF5jk/heart.png",
+      title: "Call or Message",
+      email: "@skype.com",
+      phone: "123 456 7890",
+    },
+  ];
   return (
     <div className="bg-service-color">
       <div className="container mx-auto">
@@ -42,29 +62,29 @@ export default function ContactForm() {
                     placeholder="Message"
                   ></textarea>
                   <div>
-                    <button className="text-white bg-green px-6 py-2">Submit</button>
+                    <button className="text-white bg-green px-6 py-2">
+                      Submit
+                    </button>
                   </div>
                 </div>
               </div>
               {/* <!-- ... --> */}
               <div className=" bg-white">
                 <div>
-                  <div>
-                    <img src="https://i.ibb.co/SJHchgB/doctor.png"/>
-                  </div>
-                  <div></div>
-                </div>
-                <div>
-                  <div>
-                    <img src="https://i.ibb.co/gVqg24m/defibrillator.png"/>
-                  </div>
-                  <div></div>
-                </div>
-                <div>
-                  <div>
-                    <img src="https://i.ibb.co/FKrF5jk/heart.png"/>
-                  </div>
-                  <div></div>
+                  {items.map((x) => (
+                    <div className="my-4 p-5">
+                      <div>
+                        <img className="img_color h-12 w-16 " src={x.image}/>
+                      </div>
+                      <div>
+                        <h2 className="text-2xl font-semibold my-2">{x.title}</h2>
+                        <p className="text-lg text-gray-400 my-2">{x.email}</p>
+                        <p className="text-gray-400 text-lg">{x.phone}</p>
+                        <hr className="my-1"/>
+                      </div>
+                      
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
