@@ -295,7 +295,7 @@ const ChildrenServices = () => {
                                 <p className='text-[6.5rem] font-semibold text-[#33d687]'>
                                     <CountUp
                                         end={25}
-                                        duration={2}
+                                        duration={5}
                                     />
                                     <span className='text-[6rem]'>+</span></p>
                                 <p className='text-[1.7rem] font-semibold text-[#2A334E] leading-[2rem] mb-[1rem]'>We Have Top Level of World Best Heart Surgery </p>
