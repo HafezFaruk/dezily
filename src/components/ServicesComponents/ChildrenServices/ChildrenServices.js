@@ -5,6 +5,8 @@ import { BiCheck } from 'react-icons/bi'
 import { RiHeartPulseLine } from 'react-icons/ri'
 import { GiHeartOrgan } from 'react-icons/gi';
 import ValveSlider from '../Valve Diseases/ValveSlider';
+import CountUp from 'react-countup';
+
 
 
 
@@ -290,7 +292,12 @@ const ChildrenServices = () => {
 
 
                             <div className='text-center p-[2.5rem]'>
-                                <p className='text-[6.5rem] font-semibold text-[#33d687]'>25<span className='text-[6rem]'>+</span></p>
+                                <p className='text-[6.5rem] font-semibold text-[#33d687]'>
+                                    <CountUp
+                                        end={25}
+                                        duration={2}
+                                    />
+                                    <span className='text-[6rem]'>+</span></p>
                                 <p className='text-[1.7rem] font-semibold text-[#2A334E] leading-[2rem] mb-[1rem]'>We Have Top Level of World Best Heart Surgery </p>
                                 <p className='text-[#33d687] text-[0.9rem] leading-[1.6rem] font-medium'>Lets Talk About Health</p>
                             </div>
