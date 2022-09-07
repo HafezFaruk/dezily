@@ -20,6 +20,8 @@ import BlogGridView from "./components/Blog/BlogGridView.js";
 import BlogSingleView from "./components/Blog/BlogSingleView.js";
 import HeartSurgery from "./components/ServicesComponents/HeartSurgery/HeartSurgery";
 import ValveDiseases from "./components/ServicesComponents/Valve Diseases/ValveDiseases";
+import ChildrenServices from "./components/ServicesComponents/ChildrenServices/ChildrenServices";
+import HeartTransplant from "./components/ServicesComponents/HeartTransplant/HeartTransplant";
 
 function Router() {
   return (
@@ -33,6 +35,8 @@ function Router() {
         <Route path="services" element={<Services />}>
           <Route path="heartSurgery" element={<HeartSurgery />} />
           <Route path="valveDiseases" element={<ValveDiseases />} />
+          <Route path="childrenServices" element={<ChildrenServices />} />
+          <Route path="heartTransplant" element={<HeartTransplant />} />
         </Route>
 
         <Route path="pages" element={<Pages />}>
@@ -43,11 +47,6 @@ function Router() {
           <Route path="FAQ" element={<FAQ />} />
         </Route>
 
-
-        <Route path="services" element={<Services />}>
-          <Route path="HeartSurgery" element={<HeartSurgery />} />
-
-        </Route>
 
 
         <Route path="portfolio" element={<Portfolio />}>
