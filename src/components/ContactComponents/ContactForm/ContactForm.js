@@ -16,14 +16,18 @@ export default function ContactForm() {
             <div class="grid grid-cols-3 gap-4">
               <div className="col-span-2  bg-white">
                 <div class="grid grid-cols-2 gap-4 p-5  ">
-                  <input type="text" placeholder="Your Name" />
-                  <input type="text" placeholder="Your Name" />
-                  <input type="text" placeholder="Your Name" />
-                  <input type="text" placeholder="Your Name" />
-                  <textarea className="col-span-2" placeholder="Message"></textarea>
-                  <button className="text-start">Submit</button>
+                  <input type="text" placeholder="Your Name*" />
+                  <input type="text" placeholder="Email*" />
+                  <input type="text" placeholder="Phone Number*" />
+                  <input type="text" placeholder="Subjects*" />
+                  <textarea
+                    className="col-span-2"
+                    placeholder="Message"
+                  ></textarea>
+                  <div>
+                    <button>Submit</button>
+                  </div>
                 </div>
-                
               </div>
               {/* <!-- ... --> */}
               <div className=" bg-white">Call-Section</div>
