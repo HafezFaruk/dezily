@@ -11,7 +11,7 @@ import HomeService from "../components/HomeComponents/HomeService/HomeService.js
 function Home() {
   return (
     <div className="bg">
-      <Banner/>
+      {/* <Banner/> */}
       <HomeService />
       <ContactUs />
       <ServiceProvide />
