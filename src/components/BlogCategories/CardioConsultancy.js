@@ -45,5 +45,9 @@ export default function CardioConsultancy() {
         "A surgical procedure used in which the blocked portion of the coronary artery is bypassed with another piece of blood vessel.",
     },
   ];
-  return <div>CardioConsultancy</div>;
+  return <div>
+
+    {/* ServiceBanner */}
+
+  </div>;
 }
