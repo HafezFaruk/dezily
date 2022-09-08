@@ -121,9 +121,18 @@ export default function CardioConsultancy() {
             {choseUsText.map((x) => (
               <div>
                 <p className="text-green text-start font-bold">{x.subtitle}</p>
+                <h2 className="font-bold my-3 text-4xl text-dark f">
+                  {x.title}
+                </h2>
+                <p className="text-gray-400 text-md py-2">{x.content}</p>
               </div>
             ))}
+             <div className="flex">
+            <div>Reliable And Proven</div>
+            <div>Best Team Members</div>
           </div>
+          </div>
+         
           <div>collpase</div>
         </div>
       </div>
