@@ -150,7 +150,7 @@ export default function CardioConsultancy() {
             </div>
           </div>
 
-          <div>collpase</div>
+          <div><h2 className="text-green text-xl">collpase</h2> </div>
         </div>
       </div>
     </div>
