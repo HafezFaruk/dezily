@@ -1,4 +1,5 @@
 import React from "react";
+import HeaderFeature from "./../Pages/about/HeaderFeature";
 
 export default function CardioConsultancy() {
   const aboutDezily = [
@@ -45,9 +46,14 @@ export default function CardioConsultancy() {
         "A surgical procedure used in which the blocked portion of the coronary artery is bypassed with another piece of blood vessel.",
     },
   ];
-  return <div>
-
-    {/* ServiceBanner */}
-
-  </div>;
+  return (
+    <div>
+      {/* ServiceBanner */}
+      <div className="bg-apple  ">
+        <div className="h-[28rem]">
+          <HeaderFeature tab="Services-2" />
+        </div>
+      </div>
+    </div>
+  );
 }
