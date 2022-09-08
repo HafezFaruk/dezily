@@ -8,7 +8,7 @@ export default function CardioConsultancy() {
       title: "Heart Surgery Specialist Expert Doctors",
       headtext:
         "We have the top level of world best heart surgery specialist expert doctors. We are used latest technology in our healthcare.",
-      subtitle: "ABOUT Dezily",
+      subtitle: "About Dezily",
       subimage: "https://i.ibb.co/DQHL29s/single-img-01.jpg",
       content:
         "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Richard McClintock, a Latin professor at Hampden-Sydin Virginia",
@@ -54,10 +54,23 @@ export default function CardioConsultancy() {
           <HeaderFeature tab="Services-2" />
         </div>
       </div>
-
-
-
       {/* About-Section */}
+      <div className="container mx-auto">
+        <div className="my-[8rem]">
+          {aboutDezily.map((x) => (
+            <div className="md:flex gap-3">
+              <div>
+                <img src={x.image} alt="doctorImage" />
+              </div>
+              <div className="my-[1rem] p-5">
+                <h3 className="font-semibold text-green">{x.subtitle}</h3>
+                <h2 className="text-5xl text-dark font-bold">{x.title}</h2>
+                <p>{x.headtext}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
