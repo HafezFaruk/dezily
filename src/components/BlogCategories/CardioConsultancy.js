@@ -76,7 +76,9 @@ export default function CardioConsultancy() {
                   <div>
                     <p className="text-lg text-gray-400 ">{x.content}</p>
                   </div>
+                  
                 </div>
+                <button className="bg-green text-white px-[1.5rem] py-[.6rem] my-4">Contact</button>
               </div>
             </div>
           ))}
@@ -132,17 +134,19 @@ export default function CardioConsultancy() {
               <div className="">
                 <h2 className="flex justify-between gap-3 align-center text-center bg-gray-200 p-5">
                   {" "}
-                  <FaArrowRight className="text-center mt-[0.3rem] hover:text-green" /> Reliable And Proven
+                  <FaArrowRight className="text-center mt-[0.3rem] hover:text-green" />{" "}
+                  Reliable And Proven
                 </h2>
               </div>
               <div className="flex">
                 {" "}
                 <h2 className="flex justify-between gap-3 align-center text-center bg-gray-200 p-5">
                   {" "}
-                  <FaArrowRight className="text-center mt-[0.3rem] hover:text-green" /> Best Tean Members
+                  <FaArrowRight className="text-center mt-[0.3rem] hover:text-green" />{" "}
+                  Best Tean Members
                 </h2>
               </div>
-              <hr className="py-5"/>
+              <hr className="py-5" />
             </div>
           </div>
 
