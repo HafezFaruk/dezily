@@ -1,7 +1,8 @@
 import React from "react";
 import HeaderFeature from "./../Pages/about/HeaderFeature";
 import { FaArrowRight } from "react-icons/fa";
-export default function CardiologyExercise() {
+
+export default function CardioConsultancy() {
   const aboutDezily = [
     {
       image: "https://i.ibb.co/4Rs4cJD/single-img-14.jpg",
@@ -11,7 +12,7 @@ export default function CardiologyExercise() {
       subtitle: "About Dezily",
       subimage: "https://i.ibb.co/DQHL29s/single-img-01.jpg",
       content:
-        "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Rischard McClintock, a Latin professor at Hampden-Sydin Virginia",
+        "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Richard McClintock, a Latin professor at Hampden-Sydin Virginia",
     },
   ];
 
@@ -37,6 +38,7 @@ export default function CardiologyExercise() {
       content: "BYPAS SURGARY",
     },
   ];
+
   const choseUsText = [
     {
       subtitle: "WHY CHOOSE US",
@@ -74,10 +76,9 @@ export default function CardiologyExercise() {
                   <div>
                     <p className="text-lg text-gray-400 ">{x.content}</p>
                   </div>
+                  
                 </div>
-                <button className="bg-green text-white px-[1.5rem] py-[.6rem] my-4">
-                  Contact
-                </button>
+                <button className="bg-green text-white px-[1.5rem] py-[.6rem] my-4">Contact</button>
               </div>
             </div>
           ))}
@@ -149,9 +150,7 @@ export default function CardiologyExercise() {
             </div>
           </div>
 
-          <div>
-            <h2 className="text-green text-xl">collpase</h2>{" "}
-          </div>
+          <div><h2 className="text-green text-xl">collpase</h2> </div>
         </div>
       </div>
     </div>
