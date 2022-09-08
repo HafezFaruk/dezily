@@ -60,12 +60,18 @@ export default function CardioConsultancy() {
           {aboutDezily.map((x) => (
             <div className="md:flex gap-3">
               <div>
-                <img src={x.image} alt="doctorImage" />
+                <img className="w-[57rem]" src={x.image} alt="doctorImage" />
               </div>
-              <div className="my-[1rem] p-5">
+              <div className="my-[1rem] p-9">
                 <h3 className="font-semibold text-green">{x.subtitle}</h3>
                 <h2 className="text-5xl text-dark font-bold">{x.title}</h2>
-                <p>{x.headtext}</p>
+                <p className="text-gray-400 text-md my-4 ">{x.headtext}</p>
+                <div className="flex gap-4 ">
+                  <img className="w-[10rem] h-[10rem]" src={x.subimage} alt="" />
+                  <div>
+                    <p className="text-lg text-gray-400 my-5">{x.content}</p>
+                  </div>
+                </div>
               </div>
             </div>
           ))}
