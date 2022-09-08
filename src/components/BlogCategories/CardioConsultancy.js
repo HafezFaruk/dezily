@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderFeature from "./../Pages/about/HeaderFeature";
+import { FaArrowRight } from "react-icons/fa";
 
 export default function CardioConsultancy() {
   const aboutDezily = [
@@ -127,12 +128,24 @@ export default function CardioConsultancy() {
                 <p className="text-gray-400 text-md py-2">{x.content}</p>
               </div>
             ))}
-             <div className="flex">
-            <div>Reliable And Proven</div>
-            <div>Best Team Members</div>
+            <div className="flex gap-5 py-5">
+              <div className="">
+                <h2 className="flex justify-between gap-3 align-center text-center bg-gray-200 p-5">
+                  {" "}
+                  <FaArrowRight className="text-center mt-[0.3rem] hover:text-green" /> Reliable And Proven
+                </h2>
+              </div>
+              <div className="flex">
+                {" "}
+                <h2 className="flex justify-between gap-3 align-center text-center bg-gray-200 p-5">
+                  {" "}
+                  <FaArrowRight className="text-center mt-[0.3rem] hover:text-green" /> Best Tean Members
+                </h2>
+              </div>
+              <hr className="py-5"/>
+            </div>
           </div>
-          </div>
-         
+
           <div>collpase</div>
         </div>
       </div>
