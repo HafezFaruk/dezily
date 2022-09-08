@@ -22,6 +22,7 @@ import HeartSurgery from "./components/ServicesComponents/HeartSurgery/HeartSurg
 import ValveDiseases from "./components/ServicesComponents/Valve Diseases/ValveDiseases";
 import ChildrenServices from "./components/ServicesComponents/ChildrenServices/ChildrenServices";
 import HeartTransplant from "./components/ServicesComponents/HeartTransplant/HeartTransplant";
+import Endocrinology from "./components/ServicesComponents/Endocrinology/Endocrinology";
 
 function Router() {
   return (
@@ -37,6 +38,7 @@ function Router() {
           <Route path="valveDiseases" element={<ValveDiseases />} />
           <Route path="childrenServices" element={<ChildrenServices />} />
           <Route path="heartTransplant" element={<HeartTransplant />} />
+          <Route path="endocrinology" element={<Endocrinology />} />
         </Route>
 
         <Route path="pages" element={<Pages />}>
