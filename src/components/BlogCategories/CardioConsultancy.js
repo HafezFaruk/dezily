@@ -67,14 +67,44 @@ export default function CardioConsultancy() {
                 <h2 className="text-5xl text-dark font-bold">{x.title}</h2>
                 <p className="text-gray-400 text-md my-4 ">{x.headtext}</p>
                 <div className="flex gap-4 ">
-                  <img className="w-[10rem] h-[10rem]" src={x.subimage} alt="" />
+                  <img
+                    className="w-[10rem] h-[10rem]"
+                    src={x.subimage}
+                    alt=""
+                  />
                   <div>
-                    <p className="text-lg text-gray-400 my-5">{x.content}</p>
+                    <p className="text-lg text-gray-400 ">{x.content}</p>
                   </div>
                 </div>
               </div>
             </div>
           ))}
+        </div>
+      </div>
+      {/* Heart Care Based Solutions */}
+      <div className="bg-service-color">
+        <div className="container mx-auto my-[10rem]">
+          <h2 className="text-center text-lg text-green font-bold py-2">
+            WHAT WE HAVE
+          </h2>
+          <h2 className="text-center font-bold text-4xl text-dark my-2 p-4">
+            Heart Care Based Solutions
+          </h2>
+          {/* WHAT WE HAVE */}
+
+          <div className="flex gap-4 py-[5rem]">
+            {solutions.map((x) => (
+              <div className="bg-white">
+                <div>
+                  <img src={x.image} alt="doctores" />
+                </div>
+                <div>
+                  <p>{x.title}</p>
+                  <p>{x.content}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
