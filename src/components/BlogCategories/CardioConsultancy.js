@@ -92,15 +92,21 @@ export default function CardioConsultancy() {
           </h2>
           {/* WHAT WE HAVE */}
 
-          <div className="flex gap-4 py-[5rem]">
+          <div className="flex gap-4 py-[4rem]">
             {solutions.map((x) => (
               <div className="bg-white">
                 <div>
-                  <img src={x.image} alt="doctores" />
+                  <img
+                    className="transition-all duration-500 ease-in-out transform scale-100 hover:scale-105"
+                    src={x.image}
+                    alt="doctores"
+                  />
                 </div>
                 <div>
-                  <p>{x.title}</p>
-                  <p>{x.content}</p>
+                  <p className="text-gray-400 text-md p-2">{x.title}</p>
+                  <p className="text-dark text-lg p-2 py-3 font-semibold">
+                    {x.content}
+                  </p>
                 </div>
               </div>
             ))}
