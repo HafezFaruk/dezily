@@ -92,7 +92,7 @@ export default function CardioConsultancy() {
           </h2>
           {/* WHAT WE HAVE */}
 
-          <div className="flex gap-4 py-[4rem]">
+          <div className="md:flex gap-4 py-[4rem]">
             {solutions.map((x) => (
               <div className="bg-white">
                 <div>
@@ -102,7 +102,7 @@ export default function CardioConsultancy() {
                     alt="doctores"
                   />
                 </div>
-                <div>
+                <div className="py-4">
                   <p className="text-gray-400 text-md p-2">{x.title}</p>
                   <p className="text-dark text-lg p-2 py-3 font-semibold">
                     {x.content}
@@ -114,9 +114,19 @@ export default function CardioConsultancy() {
         </div>
       </div>
 
-
-
       {/* WHY CHOOSE US */}
+      <div className="container mx-auto">
+        <div className="flex gap-4">
+          <div>
+            {choseUsText.map((x) => (
+              <div>
+                <p className="text-green text-start font-bold">{x.subtitle}</p>
+              </div>
+            ))}
+          </div>
+          <div>collpase</div>
+        </div>
+      </div>
     </div>
   );
 }
