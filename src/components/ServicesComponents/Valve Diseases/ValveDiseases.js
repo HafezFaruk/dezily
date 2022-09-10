@@ -22,9 +22,9 @@ const ValveDiseases = () => {
 
 
 
-                <div className='px-[70px] py-10 items-center justify-center grid grid-cols-2'>
+                <div className='lg:px-[70px] md:px-[4rem] py-10 items-center justify-center grid lg:grid-cols-2 md:grid-cols-1'>
                     <div>
-                        <img src={heartImg2} alt="" />
+                        <img className='p-[1rem]' src={heartImg2} alt="" />
                     </div>
 
 
@@ -34,7 +34,7 @@ const ValveDiseases = () => {
                         <p className='leading-5 font-light text-zinc-500 tracking-wide pb-[2rem] font-sans'>Cardiologists are doctors who specialize in diagnosing and treating diseases or conditions of the heart and blood cardiovascular.</p>
 
 
-                        <div className='grid grid-cols-2'>
+                        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'>
                             <div className='flex items-center justify-center'>
                                 <div className='text-[37px] p-4 text-[#33d687] border-l-2 border-[#2A334E]'><RiHeartPulseLine /></div>
                                 <div>
@@ -77,7 +77,7 @@ const ValveDiseases = () => {
 
 
 
-                <div className='px-[70px] py-10 items-center justify-center grid grid-cols-2'>
+                <div className='lg:px-[70px] md:px-[4rem] md:pt-[4rem] pb-10 items-center justify-center grid lg:grid-cols-2 md:grid-cols-1'>
                     <div className='p-[0.9rem]'>
                         <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>The Heart Care Heart Hospital Latest & Best Technology.</h1>
 
@@ -86,7 +86,7 @@ const ValveDiseases = () => {
 
 
 
-                        <div className='grid grid-cols-2 gap-9 text-zinc-500'>
+                        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-9 text-zinc-500'>
                             <div>
                                 <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
                                     <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
@@ -137,7 +137,7 @@ const ValveDiseases = () => {
 
 
                     <div>
-                        <img src={heartImg1} alt="" />
+                        <img className='p-[1rem]' src={heartImg1} alt="" />
                     </div>
 
                 </div>
@@ -189,7 +189,7 @@ const ValveDiseases = () => {
 
 
 
-                        <div className='grid grid-cols-3 text-start'>
+                        <div className='grid lg:grid-cols-3 md:grid-cols-1 text-start'>
                             <div className='pt-[7rem]'>
                                 <p className='text-[0.9rem] font-medium leading-[1.8rem] text-[#33d687]'>About Dezily</p>
                                 <h1 className='text-[2.5rem] leading-[2.8rem] font-semibold text-[#2A334E]'>We Are Achieve The <br /> Success Of Heart <br /> Surgery</h1>
@@ -223,7 +223,7 @@ const ValveDiseases = () => {
 
 
 
-                        <div className='grid grid-cols-3'>
+                        <div className='grid lg:grid-cols-3 md:grid-cols-1'>
                             <div className='mb-[1.5rem]'>
                                 <p className='text-zinc-500 font-medium text-[1.1rem] leading-[1.7rem]'>A surgical option to treat advanced heart failure, occurs when the heart can't pump enough the <br /> body's organs.</p>
 
@@ -278,7 +278,7 @@ const ValveDiseases = () => {
 
 
 
-                        <div className='grid grid-cols-3'>
+                        <div className='grid lg:grid-cols-3 md:grid-cols-1'>
                             <div className='bg-[#33d687] p-[2.5rem] text-white'>
                                 <span className='text-[3.1rem]'><GiHeartOrgan /></span>
                                 <h1 className='text-[1.7rem] font-medium py-3'>A Heart rhythm <br />  monitoring </h1>

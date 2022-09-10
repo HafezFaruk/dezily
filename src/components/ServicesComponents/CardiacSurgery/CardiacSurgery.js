@@ -25,7 +25,7 @@ const CardiacSurgery = () => {
 
 
 
-                <div className='px-[70px] py-10 items-center justify-center grid grid-cols-2'>
+                <div className='px-[70px] pt-[100px] items-center justify-center grid grid-cols-2'>
                     <div>
                         <img src={heartImg2} alt="" />
                     </div>
