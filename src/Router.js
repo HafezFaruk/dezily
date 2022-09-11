@@ -25,6 +25,12 @@ import ChildrenServices from "./components/ServicesComponents/ChildrenServices/C
 import HeartTransplant from "./components/ServicesComponents/HeartTransplant/HeartTransplant";
 import Endocrinology from "./components/ServicesComponents/Endocrinology/Endocrinology";
 import CardiacSurgery from "./components/ServicesComponents/CardiacSurgery/CardiacSurgery";
+import CardioConsultancy from "./components/BlogCategories/CardioConsultancy";
+import CardiologyExercise from "./components/BlogCategories/CardiologyExercise";
+import ExperienceDoctors from "./components/BlogCategories/ExperienceDoctors";
+import HealthCare from './components/BlogCategories/HealthCare';
+import HeartTransplants from './components/BlogCategories/HeartTransplants';
+
 
 function Router() {
   return (
@@ -62,7 +68,16 @@ function Router() {
           <Route path="BlogGridView" element={<BlogGridView />} />
           <Route path="BlogSingleView" element={<BlogSingleView />} />
         </Route>
+
+        {/* Naimur */}
+        <Route path="CardioConsultancy" element={<CardioConsultancy />} />
+        <Route path="CardiologyExercise" element={<CardiologyExercise />} />
+        <Route path="ExperienceDoctors" element={<ExperienceDoctors />} />
+        <Route path="HealthCare" element={<HealthCare />} />
+        <Route path="HeartTransplants" element={<HeartTransplants />} />
+        {/* Naimur */}
         <Route path="contact" element={<ContactUs />} />
+
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />

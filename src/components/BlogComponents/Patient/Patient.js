@@ -1,8 +1,10 @@
 import { Footer } from "flowbite-react";
 import React from "react";
 import "aos/dist/aos.css";
-export default function Patient() {
 
+import { Link } from 'react-router-dom';
+
+export default function Patient() {
   const items = [
     {
       image: "https://i.ibb.co/hLQ55m5/blog-06.jpg",
@@ -49,18 +51,28 @@ export default function Patient() {
 
   const categories = [
     {
+      id: 1,
+      link: "/CardioConsultancy",
       text: "Cardio Consultancy",
     },
     {
+      id: 2,
+      link: "/CardiologyExercise",
       text: " Cardiology Exercise",
     },
     {
+      id: 3,
+      link: "/ExperienceDoctors",
       text: "Experience Doctors",
     },
     {
+      id: 4,
+      link: "/HealthCare",
       text: " Health Care",
     },
     {
+      link: "/HeartTransplants",
+      id: 5,
       text: "Heart Transplant",
     },
   ];
@@ -92,7 +104,10 @@ export default function Patient() {
             <div>
               {items.map((x) => (
                 <div className="bg-white  ">
-                  <div data-aos="fade-right" className="md:flex space-x-2 md:my-6  p-5 my-3 ">
+                  <div
+                    data-aos="fade-right"
+                    className="md:flex space-x-2 md:my-6  p-5 my-3 "
+                  >
                     <div>
                       <img className="md:h-64" src={x.image} alt="" />
                     </div>
@@ -131,7 +146,14 @@ export default function Patient() {
               {categories.map((x) => (
                 <div data-aos="fade-up">
                   <p className="text-gray-400 hover:text-green py-2 mt-1">
-                    + <span className="ml-2">{x.text}</span>{" "}
+                    +{" "}
+                    <span className="ml-2">
+
+                      <Link to="/CardioConsultancy">{x.text}</Link>{" "}
+
+                      <Link to={x.link}>{x.text}</Link>{" "}
+
+                    </span>{" "}
                   </p>
                 </div>
               ))}
