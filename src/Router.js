@@ -25,8 +25,6 @@ import BlogClassic from "./components/Blog/BlogClassic.js";
 import BlogGridView from "./components/Blog/BlogGridView.js";
 import BlogSingleView from "./components/Blog/BlogSingleView.js";
 
-import CardioConsultancy from "./components/BlogCategories/CardioConsultancy";
-=======
 import ContactUs from "./pages/ContactUs.js";
 import CardioConsultancy from "./components/BlogCategories/CardioConsultancy";
 import CardiologyExercise from "./components/BlogCategories/CardiologyExercise";
@@ -66,7 +64,6 @@ function Router() {
           <Route path="BlogSingleView" element={<BlogSingleView />} />
         </Route>
 
-        <Route path="CardioConsultancy" element={<CardioConsultancy />} />
         {/* Naimur */}
         <Route path="CardioConsultancy" element={<CardioConsultancy />} />
         <Route path="CardiologyExercise" element={<CardiologyExercise />} />

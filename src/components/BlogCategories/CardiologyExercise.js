@@ -10,11 +10,8 @@ export default function CardiologyExercise() {
         "We have the top level of world best heart surgery specialist expert doctors. We are used latest technology in our healthcare.",
       subtitle: "About Dezily",
       subimage: "https://i.ibb.co/DQHL29s/single-img-01.jpg",
-      content:
+      content:"Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Rischard McClintock, a Latin professor at Hampden-Sydin Virginia",
 
-        "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Rischard McClintock, a Latin professor at Hampden-Sydin Virginia",
-
-        "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Richard McClintock, a Latin professor at Hampden-Sydin Virginia",
 
     },
   ];
