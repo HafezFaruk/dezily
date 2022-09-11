@@ -11,7 +11,11 @@ export default function CardiologyExercise() {
       subtitle: "About Dezily",
       subimage: "https://i.ibb.co/DQHL29s/single-img-01.jpg",
       content:
+
+        "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Rischard McClintock, a Latin professor at Hampden-Sydin Virginia",
+
         "Contrary to popular belief, Lorem Ipsum is not ly randomtext. It has roots in a piece of classical Lterature from 45 BC, making it over 2000 . Richard McClintock, a Latin professor at Hampden-Sydin Virginia",
+
     },
   ];
 

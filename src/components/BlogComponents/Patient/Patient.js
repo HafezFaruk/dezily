@@ -1,7 +1,9 @@
 import { Footer } from "flowbite-react";
 import React from "react";
 import "aos/dist/aos.css";
-import { Link } from "react-router-dom";
+
+import { Link } from 'react-router-dom';
+
 export default function Patient() {
   const items = [
     {
@@ -146,7 +148,11 @@ export default function Patient() {
                   <p className="text-gray-400 hover:text-green py-2 mt-1">
                     +{" "}
                     <span className="ml-2">
+
+                      <Link to="/CardioConsultancy">{x.text}</Link>{" "}
+
                       <Link to={x.link}>{x.text}</Link>{" "}
+
                     </span>{" "}
                   </p>
                 </div>
