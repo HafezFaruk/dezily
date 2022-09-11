@@ -24,7 +24,16 @@ import Blog from "./pages/Blog.js";
 import BlogClassic from "./components/Blog/BlogClassic.js";
 import BlogGridView from "./components/Blog/BlogGridView.js";
 import BlogSingleView from "./components/Blog/BlogSingleView.js";
+
 import CardioConsultancy from "./components/BlogCategories/CardioConsultancy";
+=======
+import ContactUs from "./pages/ContactUs.js";
+import CardioConsultancy from "./components/BlogCategories/CardioConsultancy";
+import CardiologyExercise from "./components/BlogCategories/CardiologyExercise";
+import ExperienceDoctors from "./components/BlogCategories/ExperienceDoctors";
+import HealthCare from './components/BlogCategories/HealthCare';
+import HeartTransplants from './components/BlogCategories/HeartTransplants';
+
 
 function Router() {
   return (
@@ -56,7 +65,17 @@ function Router() {
           <Route path="BlogGridView" element={<BlogGridView />} />
           <Route path="BlogSingleView" element={<BlogSingleView />} />
         </Route>
+
         <Route path="CardioConsultancy" element={<CardioConsultancy />} />
+        {/* Naimur */}
+        <Route path="CardioConsultancy" element={<CardioConsultancy />} />
+        <Route path="CardiologyExercise" element={<CardiologyExercise />} />
+        <Route path="ExperienceDoctors" element={<ExperienceDoctors />} />
+        <Route path="HealthCare" element={<HealthCare />} />
+        <Route path="HeartTransplants" element={<HeartTransplants />} />
+        {/* Naimur */}
+        <Route path="contact" element={<ContactUs />} />
+
         <Route path="*" element={<Error />} />
       </Routes>
       <Footer />
