@@ -5,7 +5,11 @@ module.exports = {
     "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+
+
+
     extend: {
+
       colors: {
         "regal-blue": "#243c5a",
         "light-blue": "#33D687",
@@ -13,7 +17,6 @@ module.exports = {
         dark: "#2a334e",
         grey: " #8D8D8D",
         white: "#ffffff",
-        quote: "##1F2740",
         green: "#33d687",
         "light-gray": "#8d8d8d",
         "service-color": "#f5f5f5",
@@ -25,7 +28,10 @@ module.exports = {
         openingHour: `url('https://themetechmount.com/html/dezily/images/bg-image/col-bgimage-7.png')`,
         apple: `url('https://i.ibb.co/TmCp27r/pagetitle-bg.jpg')`,
       },
+
+
     },
+
   },
   plugins: [require("flowbite/plugin")],
 };
