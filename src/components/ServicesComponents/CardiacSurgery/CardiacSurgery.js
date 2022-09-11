@@ -14,106 +14,31 @@ import { FaUserMd } from 'react-icons/fa';
 
 
 
-const HeartSurgery = () => {
+
+
+
+
+const CardiacSurgery = () => {
     return (
         <div>
             <div className='container mx-auto main-w-[1100px]'>
-                <div className='lg:px-[70px] md:px-[4rem] lg:pt-[100px] md:pt-[4rem] pb-10 items-center justify-center grid lg:grid-cols-2 md:grid-cols-1'>
-                    <div className='p-[0.9rem]'>
-                        <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>The Heart Care Heart Hospital Latest & Best Technology.</h1>
-
-                        <p className='leading-5 font-light text-zinc-500 tracking-wide pb-[1rem] font-sans'>Cardiologists are doctors who specialize in diagnosing and treating diseases or conditions of the heart and blood cardiovascular system Heart cardiologists are listed in the professional directory.</p>
 
 
 
-
-                        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 gap-9 text-zinc-500'>
-                            <div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>The Vision Exams Equipment</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>A Bionic Heart Vision</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>The latest Transplant surgery</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>A Bionic Heart Vision</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>Nuclear Stress Testing</p>
-                                </div>
-                            </div>
-
-                            <div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>The Vision Exams Equipment</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>A Bionic Heart Vision</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>The latest Transplant surgery</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>A Bionic Heart Vision</p>
-                                </div>
-                                <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
-                                    <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
-                                    <p className='font-light'>Nuclear Stress Testing</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
+                <div className='px-[70px] pt-[100px] items-center justify-center grid grid-cols-2'>
                     <div>
-                        <img className='p-[1rem]' src={heartImg1} alt="" />
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div className='lg:px-[70px] md:px-[4rem] py-10 items-center justify-center grid lg:grid-cols-2 md:grid-cols-1'>
-                    <div>
-                        <img className='p-[1rem]' src={heartImg2} alt="" />
+                        <img src={heartImg2} alt="" />
                     </div>
 
 
 
-                    <div className='p-[0.9rem]'>
+                    <div className='pl-8'>
                         <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>Quickly Response Provide Our Speciale Doctrors To Patients</h1>
 
                         <p className='leading-5 font-light text-zinc-500 tracking-wide pb-[2rem] font-sans'>Cardiologists are doctors who specialize in diagnosing and treating diseases or conditions of the heart and blood cardiovascular.</p>
 
 
-                        <div className='grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1'>
+                        <div className='grid grid-cols-2'>
                             <div className='flex items-center justify-center'>
                                 <div className='text-[37px] p-4 text-[#33d687] border-l-2 border-[#2A334E]'><RiHeartPulseLine /></div>
                                 <div>
@@ -134,7 +59,7 @@ const HeartSurgery = () => {
 
 
 
-                        <div className='mt-[2.5rem]'>
+                        <div className='mt-8'>
                             <button className='mr-5 px-4 py-2 bg-[#2A334E] font-medium text-white hover:bg-[#33d687]'>Get Appointment</button>
                             <button className='px-4 py-2 bg-[#33d687] font-medium text-white hover:bg-[#2A334E]'>Contact Us</button>
                         </div>
@@ -153,6 +78,70 @@ const HeartSurgery = () => {
 
 
 
+            <div className='px-[70px] pt-[100px] pb-10 items-center justify-center grid grid-cols-2'>
+                <div className='p-[0.9rem]'>
+                    <h1 className='text-[40px] leading-[50px] font-semibold text-[#2A334E] pb-[0.5rem]'>The Heart Care Heart Hospital Latest & Best Technology.</h1>
+
+                    <p className='leading-5 font-light text-zinc-500 tracking-wide pb-[1rem] font-sans'>Cardiologists are doctors who specialize in diagnosing and treating diseases or conditions of the heart and blood cardiovascular system Heart cardiologists are listed in the professional directory.</p>
+
+
+
+
+                    <div className='grid grid-cols-2 gap-9 text-zinc-500'>
+                        <div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>The Vision Exams Equipment</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>A Bionic Heart Vision</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>The latest Transplant surgery</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>A Bionic Heart Vision</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>Nuclear Stress Testing</p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>The Vision Exams Equipment</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>A Bionic Heart Vision</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>The latest Transplant surgery</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>A Bionic Heart Vision</p>
+                            </div>
+                            <div className='flex font-[15px] leading-[30px] pb-[0.3rem]'>
+                                <span className='pr-2 pt-1 text-xl text-[#33d687]'><BiCheck /></span>
+                                <p className='font-light'>Nuclear Stress Testing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div>
+                    <img src={heartImg1} alt="" />
+                </div>
+
+            </div>
 
 
 
@@ -164,7 +153,11 @@ const HeartSurgery = () => {
 
 
 
-            <div className="bg-zinc-100 pb-[6rem]">
+
+
+
+
+            <div className="bg-steps h-[90vh] bg-cover bg-center">
                 <div className='container mx-auto main-w-[1100px] px-[70px] pt-[80px]'>
                     <div className='text-center'>
                         <p className='font-semibold text-[18px] text-[#33d687]'>OUR STEPS</p>
@@ -173,7 +166,7 @@ const HeartSurgery = () => {
 
 
 
-                    <div className='grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 text-center gap-7 pt-12'>
+                    <div className='grid grid-cols-4 text-center gap-7 pt-12'>
 
                         <div className='bg-white p-[30px]'>
                             <h1 className='text-[22px] font-semibold text-[#2A334E]'>Healthcare</h1>
@@ -237,4 +230,4 @@ const HeartSurgery = () => {
     )
 }
 
-export default HeartSurgery
+export default CardiacSurgery
